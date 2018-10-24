@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, withRouter } from 'react-router-dom';
+import Routes from '../../components/Routes/Routes';
+import MainContainer from '../../components/MainContainer/MainContainer';
 import './App.css';
 
 class App extends Component {
@@ -8,14 +11,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">Welcome to Dress the Child</header>
-        <button onClick={this.handleClick} buttonType="donate-btn">
-          Donate
-        </button>
-      </div>
+      <Router>
+        <div className="App">
+          <header className="App-header">Welcome to Dress the Child</header>
+          <main className="main-container">
+            <MainContainer />
+            <Routes />
+          </main>
+        </div>
+      </Router>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
