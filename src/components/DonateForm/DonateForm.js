@@ -8,7 +8,9 @@ class DonateForm extends Component {
     super(props);
     this.state = {
       complete: false,
-      name: '',
+      firstName: '',
+      lastName: '',
+      amount: 0,
       phone: '',
       email: '',
       city: '',
@@ -22,46 +24,67 @@ class DonateForm extends Component {
   };
 
   submit = async e => {
-    const { name, phone, email, city, state } = this.state;
+    const { firstName, lastName, email, city, state, amount } = this.state;
     e.preventDefault();
-    let { token } = await this.props.stripe.createToken({ name: 'Name' });
-    console.log(token);
-    let response = await fetch('/charge', {
-      method: 'POST',
-      headers: { 'Content-Type': 'text/plain' },
-      body: {
-        tokenId: token.id,
-        name,
-        phone,
-        email,
-        city,
-        state
-      }
+    let { token } = await this.props.stripe.createToken({
+      name: `${firstName} + ' ' ${lastName}`
     });
-
-    if (response.ok) console.log('Purchase Complete!');
+    let response = await fetch(
+      'https://dress-the-child-be.herokuapp.com/api/v1/charges/',
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          stripeToken: token.id,
+          stripeFirstName: firstName,
+          stripeLastName: lastName,
+          stripeAmount: amount,
+          stripeEmail: email,
+          stripeCity: city,
+          stripeState: state
+        })
+      }
+    );
+    if (response.ok) this.setState({ complete: true });
   };
 
   render() {
-    const { complete, name, phone, email, city, state } = this.state;
+    const {
+      complete,
+      firstName,
+      lastname,
+      phone,
+      email,
+      city,
+      state,
+      amount
+    } = this.state;
     if (complete) return <h1>Purchase Complete</h1>;
     return (
       <form onSubmit={this.submit} className="donate-form">
         <p>Would you like to complete donation?</p>
         <input
           type="text"
-          placeholder="Name"
-          value={name}
-          name="name"
+          placeholder="First Name"
+          value={firstName}
+          name="firstName"
           onChange={this.handleChange}
         />
         <input
           type="text"
-          placeholder="Phone"
-          value={phone}
-          name="phone"
+          placeholder="Last Name"
+          value={lastname}
+          name="lastName"
           onChange={this.handleChange}
         />
+        <input
+          type="text"
+          placeholder="Amount"
+          value={amount}
+          name="amount"
+          onChange={this.handleChange}
+        />
+
         <input
           type="text"
           placeholder="Email"
