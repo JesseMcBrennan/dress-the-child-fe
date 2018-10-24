@@ -6,4 +6,5 @@
 
 .app-header {
   background: no-repeat center/30rem url("../../images/DressTheChild_FinalLogo.svg");
-  height: 15rem; }
+  height: 15rem;
+  display: block; }
