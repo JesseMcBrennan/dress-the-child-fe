@@ -1,0 +1,15 @@
+.donate-btn {
+  color: #d9318a;
+  padding: 0.5rem 1.5rem;
+  border: 0.1rem solid #d9318a;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  cursor: pointer; }
+
+.donate-btn-hidden {
+  display: none; }
+
+.donate-btn:hover {
+  color: #3574b6;
+  border: 0.1rem solid #3574b6; }
