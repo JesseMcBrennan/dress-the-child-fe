@@ -5,15 +5,11 @@ import MainContainer from '../../components/MainContainer/MainContainer';
 import './App.css';
 
 class App extends Component {
-  handleClick = e => {
-    console.log('hi');
-  };
-
   render() {
     return (
       <Router>
-        <div className="App">
-          <header className="App-header">Welcome to Dress the Child</header>
+        <div className="app">
+          <header className="app-header" />
           <main className="main-container">
             <MainContainer />
             <Routes />

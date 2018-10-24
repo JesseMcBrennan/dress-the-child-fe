@@ -8,7 +8,7 @@ export class MainContainer extends Component {
     const { location } = this.props;
 
     return (
-      <section>
+      <section className="main-container">
         <NavLink
           exact
           to="/donate-page"

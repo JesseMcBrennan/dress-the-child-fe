@@ -1,22 +1,9 @@
-body {
-  background-color: #282c34; }
-
-.App {
+.app {
   text-align: center;
-  color: white;
-  height: auto;
+  height: 100vh;
   width: auto;
-  background-color: #282c34; }
+  background-image: linear-gradient(to bottom, #e6ebf2, #6dd4d9, #45c6a3, #5fb258); }
 
-.App-header {
-  background-color: #282c34;
-  height: 20rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; }
-
-.donate-btn {
-  width: 5rem; }
+.app-header {
+  background: no-repeat center/80% url("../../images/DressTheChild_FinalLogo.svg");
+  height: 15rem; }
