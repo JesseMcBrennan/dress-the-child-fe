@@ -27,7 +27,7 @@ class DonateForm extends Component {
     const { firstName, lastName, email, city, state, amount } = this.state;
     e.preventDefault();
     let { token } = await this.props.stripe.createToken({
-      name: `${firstName} + ' ' ${lastName}`
+      name: `${firstName} ${lastName}`
     });
     let response = await fetch(
       'https://dress-the-child-be.herokuapp.com/api/v1/charges/',

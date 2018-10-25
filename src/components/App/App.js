@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, withRouter } from 'react-router-dom';
+import { BrowserRouter as Router, withRouter, NavLink } from 'react-router-dom';
 import Routes from '../../components/Routes/Routes';
 import MainContainer from '../../components/MainContainer/MainContainer';
 import './App.css';
 
 class App extends Component {
-  handleClick = e => {
-    console.log('hi');
-  };
-
+  handleClick = () => {};
   render() {
     return (
       <Router>
-        <div className="App">
-          <header className="App-header">Welcome to Dress the Child</header>
+        <div className="app">
+          <NavLink exact to="/" className="app-header" />
+          <span className="horizontal-rule" />
           <main className="main-container">
             <MainContainer />
             <Routes />

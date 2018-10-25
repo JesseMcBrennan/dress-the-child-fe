@@ -1,8 +1,2 @@
-.donate-btn {
-  width: 2rem;
-  height: 2rem;
-  color: white;
-  text-decoration-style: none; }
-
-.donate-btn-hidden {
-  display: none; }
+.main-container {
+  margin: 3rem 0 0 0; }
