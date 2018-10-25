@@ -1,4 +1,12 @@
 .navMain {
-  width: 3em;
+  width: 15em;
   height: 100vh;
   background-color: pink; }
+
+.navLogo {
+  background: no-repeat center/10rem url("../../images/DressTheChild_noPants-01.svg");
+  height: 10rem;
+  width: 100%; }
+
+img {
+  height: 5em; }
