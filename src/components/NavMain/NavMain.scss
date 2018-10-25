@@ -15,4 +15,22 @@ img {
   height: 5em;
 }
 
+.NavMain-buttons{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-left: 1px black solid
+}
 
