@@ -1,8 +1,7 @@
 .app {
   text-align: center;
   height: 100vh;
-  width: auto;
-  background-image: linear-gradient(to bottom, #e6ebf2, #6dd4d9, #45c6a3, #5fb258); }
+  width: auto; }
 
 .app-header {
   background: no-repeat center/20rem url("../../images/DressTheChild_noPants-01.svg");
