@@ -11,6 +11,7 @@ class App extends Component {
       <Router>
         <div className="app">
           <NavLink exact to="/" className="app-header" />
+          <span className="horizontal-rule" />
           <main className="main-container">
             <MainContainer />
             <Routes />

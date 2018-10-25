@@ -12,8 +12,27 @@
 }
 
 .app-header {
-  background: no-repeat center/30rem
-    url('../../images/DressTheChild_FinalLogo.svg');
+  background: no-repeat center/20rem
+    url('../../images/DressTheChild_noPants-01.svg');
   height: 15rem;
   display: block;
+}
+
+.horizontal-rule {
+  display: block;
+  border: none;
+  color: rgba(255, 255, 255, 0.3);
+  height: 1px;
+  background: black;
+  background: -webkit-gradient(
+    radial,
+    50% 50%,
+    0,
+    50% 50%,
+    350,
+    from(#000),
+    to(rgba(255, 255, 255, 0.3))
+  );
+  width: 80%;
+  margin: auto;
 }
