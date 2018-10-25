@@ -1,9 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { shallow, mount } from 'enzyme';
 import App from './App';
+import { MainContainer } from '../../components/MainContainer/MainContainer'
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+describe('App', () => {
+  // let wrapper;
+
+  // beforeEach(() => {
+  //   wrapper = shallow(
+  //     <MainContainer />
+  //   );
+  // })
+  // it('should match the snapshot', () => {
+  //   expect(wrapper).toMatchSnapshot();
+  // });
+})
+
+
