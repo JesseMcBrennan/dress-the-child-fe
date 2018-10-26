@@ -13,7 +13,7 @@ class App extends Component {
         <div className="app">
           <NavMain />
           <NavLink exact to="/" className="app-header" />
-          <span className="horizontal-rule" />
+   {/*       <span className="horizontal-rule" />*/}
           <main className="main-container">
             <MainContainer />
             <Routes />

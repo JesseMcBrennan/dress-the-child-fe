@@ -1,12 +1,8 @@
 .app {
   text-align: center;
   height: 100vh;
-  width: auto; }
-
-.app-header {
-  background: no-repeat center/20rem url("../../images/DressTheChild_noPants-01.svg");
-  height: 15rem;
-  display: block; }
+  width: auto;
+  display: flex; }
 
 .horizontal-rule {
   display: block;
@@ -19,4 +15,5 @@
   margin: auto; }
 
 .nav-main {
-  display: flex; }
+  display: flex;
+  margin: 0; }
