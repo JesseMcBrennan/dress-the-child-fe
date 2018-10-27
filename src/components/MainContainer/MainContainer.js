@@ -9,15 +9,17 @@ export class MainContainer extends Component {
 
     return (
       <section className="main-container">
-        <NavLink
-          exact
-          to="/donate-page"
-          className={
-            location.pathname !== '/' ? 'donate-btn-hidden' : 'donate-btn'
-          }
-        >
-          Donate
-        </NavLink>
+        <div className="donate-card">
+          <NavLink
+            exact
+            to="/donate-page"
+            className={
+              location.pathname !== '/' ? 'donate-btn-hidden' : 'donate-btn'
+            }
+          >
+            Donate
+          </NavLink>
+        </div>
       </section>
     );
   }
