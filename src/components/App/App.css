@@ -8,9 +8,8 @@
   display: block;
   border: none;
   color: rgba(255, 255, 255, 0.3);
-  height: 1px;
-  background: black;
-  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(rgba(255, 255, 255, 0.3)));
+  height: 0.3rem;
+  background: whitesmoke;
   width: 80%;
   margin: auto; }
 

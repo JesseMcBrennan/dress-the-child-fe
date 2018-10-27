@@ -1,7 +1,47 @@
+@font-face {
+  font-family: 'dtc-font';
+  src: url("../../assets/Complete in Him.ttf"); }
+
+.main-title {
+  font-family: 'dtc-font', sans-serif;
+  color: #449dba;
+  font-size: 7rem;
+  content: url("../../images/DressTheChild_FinalLogo.svg");
+  height: 15rem;
+  margin: 3rem auto; }
+
+.main-body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  padding: 0 2rem;
+  color: #615d5d; }
+
 .main-container {
-  width: 100%;
-  background: no-repeat center/100em url("../../images/dtc7.jpg"); }
+  width: 86vw;
+  height: 100vh;
+  background: no-repeat center/100em url("../../images/dtc7.jpg");
+  padding: 2rem 0 0 0; }
 
 .display-card {
-  height: 100vh;
-  width: 86vw; }
+  height: 78vh;
+  width: 62vw;
+  margin: auto auto 3rem auto;
+  border: solid 0.4rem whitesmoke;
+  border-radius: 0.15rem;
+  background-color: rgba(245, 245, 245, 0.666); }
+
+.donate-btn {
+  color: whitesmoke;
+  padding: 0.5rem 1.5rem;
+  border: 0.1rem solid whitesmoke;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 0.15rem;
+  cursor: pointer; }
+
+.donate-btn-hidden {
+  display: none; }
+
+.donate-btn:hover {
+  color: #3574b6;
+  border: 0.1rem solid #3574b6; }
