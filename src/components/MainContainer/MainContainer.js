@@ -9,7 +9,7 @@ export class MainContainer extends Component {
 
     return (
       <section className="main-container">
-        <div className="donate-card">
+        <div className="display-card">
           <NavLink
             exact
             to="/donate-page"
