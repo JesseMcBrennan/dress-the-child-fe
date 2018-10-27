@@ -1,19 +1,37 @@
 import React from 'react';
 import './NavMain.css';
+import { BrowserRouter as Router, withRouter, NavLink } from 'react-router-dom';
 
 const NavMain = () => {
-  return(
+  return (
     <div className="navMain">
-      <div className="navLogo"></div>
-        <ul className="NavMain-buttons">
-          <li><a href="" className="NavMain-a">HOME</a></li>
-          <li><a href="" className="NavMain-a">ABOUT</a></li>
-          <li><a href="" className="NavMain-a">DONATE</a></li>
-          <li><a href="" className="NavMain-a">OUR MISSON</a></li>
-          <li><a href="" className="NavMain-a">PARTNERS</a></li>
-        </ul>
+      <NavLink exact to="/">
+        <div className="navLogo" />
+      </NavLink>
+      <ul className="NavMain-buttons">
+        <li>
+          <NavLink exact to="/donate" className="NavMain-a">
+            DONATE
+          </NavLink>
+        </li>
+        <li>
+          <NavLink exact to="/about" className="NavMain-a">
+            ABOUT
+          </NavLink>
+        </li>
+        <li>
+          <NavLink exact to="/mission" className="NavMain-a">
+            OUR MISSION
+          </NavLink>
+        </li>
+        <li>
+          <NavLink exact to="/partners" className="NavMain-a">
+            PARTNERS
+          </NavLink>
+        </li>
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default NavMain;
+export default withRouter(NavMain);

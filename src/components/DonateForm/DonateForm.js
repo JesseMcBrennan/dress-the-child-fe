@@ -43,7 +43,6 @@ class DonateForm extends Component {
         })
       }
     );
-    console.log(token);
     if (response.ok) this.setState({ complete: true });
   };
 
