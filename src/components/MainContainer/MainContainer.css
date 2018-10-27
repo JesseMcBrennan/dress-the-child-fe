@@ -1,2 +1,8 @@
 .main-container {
-  margin: 3rem 0 0 0; }
+  width: 100%;
+  background: no-repeat center/100em url("../../images/dtc3.jpg"); }
+
+.donate-card {
+  height: 300px;
+  width: 600px;
+  backbround-color: rgba(255, 255, 255, 0.8); }

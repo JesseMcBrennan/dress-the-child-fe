@@ -1,8 +1,8 @@
 .navMain {
   width: 15em;
   height: 100vh;
-  background-color: pink;
-
+  border-right: 1px solid grey;
+  margin: 0;
 }
 
 .navLogo {
@@ -14,5 +14,29 @@
 img {
   height: 5em;
 }
+
+.NavMain-buttons{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-inline-start: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px 0 10px 0;
+}
+
+.NavMain-a {
+  text-decoration: none;
+  padding-left: 37px;
+  color: grey
+}
+
+a:hover:not(.active) {
+  border-left: 2px black solid;
+}
+
+
 
 
