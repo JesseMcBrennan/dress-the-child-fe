@@ -27,7 +27,10 @@ class DonateForm extends Component {
     const { firstName, lastName, email, city, state, amount } = this.state;
     e.preventDefault();
     let { token } = await this.props.stripe.createToken({
-      name: `${firstName} ${lastName}`
+      name: `${firstName} ${lastName}`,
+      address_city: `${city}`,
+      address_state: `${state}`,
+      address_line2: `${email}`
     });
     let response = await fetch(
       'https://dress-the-child-be.herokuapp.com/api/v1/charges/',
@@ -36,12 +39,7 @@ class DonateForm extends Component {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           stripeToken: token.id,
-          stripeFirstName: firstName,
-          stripeLastName: lastName,
-          stripeAmount: amount,
-          stripeEmail: email,
-          stripeCity: city,
-          stripeState: state
+          stripeAmount: amount
         })
       }
     );

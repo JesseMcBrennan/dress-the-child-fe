@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { BrowserRouter as Router, withRouter } from 'react-router-dom';
 import './AdminForm.css';
 
 class AdminForm extends Component {
@@ -10,6 +9,7 @@ class AdminForm extends Component {
       password: ''
     };
   }
+
   handleChange = e => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
