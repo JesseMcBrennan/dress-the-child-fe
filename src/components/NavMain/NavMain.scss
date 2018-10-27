@@ -6,7 +6,8 @@
 }
 
 .navLogo {
-  background: no-repeat center/10rem url("../../images/DressTheChild_noPants-01.svg");
+  background: no-repeat center/10rem
+    url('../../images/DressTheChild_noPants-01.svg');
   height: 10rem;
   width: 100%;
 }
@@ -15,7 +16,7 @@ img {
   height: 5em;
 }
 
-.NavMain-buttons{
+.NavMain-buttons {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -30,13 +31,10 @@ li {
 .NavMain-a {
   text-decoration: none;
   padding-left: 37px;
-  color: grey
+  color: grey;
 }
 
-a:hover:not(.active) {
+a:hover {
   border-left: 2px black solid;
+  padding-left: 35px;
 }
-
-
-
-
