@@ -12,7 +12,7 @@ class DonatePage extends Component {
       <div className="display-card">
         <StripeProvider apiKey="pk_test_hANH4uSlssQdfIxxHpPwbzPd">
           <div className="example">
-            <h1>React Stripe Elements Example</h1>
+            <h1>Donate to Dress the Child</h1>
             <Elements>
               <DonateForm />
             </Elements>
