@@ -21,7 +21,7 @@ export class MainContainer extends Component {
         {location.pathname === `/partners` && <PartnersPage />}
         <NavLink
           exact
-          to="/donate-page"
+          to="/donate"
           className={
             location.pathname !== '/' ? 'donate-btn-hidden' : 'donate-btn'
           }

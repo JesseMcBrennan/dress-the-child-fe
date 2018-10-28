@@ -2,7 +2,7 @@
   font-family: 'dtc-font';
   src: url("../../assets/Complete in Him.ttf"); }
 
-.main-title {
+.main-logo {
   font-family: 'dtc-font', sans-serif;
   color: #449dba;
   font-size: 7rem;
@@ -10,11 +10,22 @@
   height: 15rem;
   margin: 3rem auto; }
 
+.main-title {
+  font-family: 'dtc-font', sans-serif;
+  color: #449dba;
+  font-size: 7rem;
+  height: auto;
+  margin: 3rem auto; }
+
 .main-body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2rem;
   padding: 0 2rem;
-  color: #615d5d; }
+  color: #615d5d;
+  overflow: scroll;
+  overflow-wrap: normal;
+  max-height: 25rem;
+  text-overflow: fade; }
 
 .main-container {
   width: 86vw;
