@@ -60,7 +60,7 @@ class DonateForm extends Component {
     if (complete) return <h1>Purchase Complete</h1>;
     return (
       <form onSubmit={this.submit} className="donate-form">
-        <p>Would you like to complete donation?</p>
+        <p>Please enter your information to donate.</p>
         <input
           type="text"
           placeholder="First Name"
