@@ -1,8 +1,8 @@
 import React from 'react';
 
-const AboutPage = () => (
+const VolunteersPage = () => (
   <div className="display-card">
-    <h1 className="main-title">ABOUT US</h1>
+    <h1 className="main-title">VOLUNTEERS</h1>
     <hr className="horizontal-rule" />
     <p className="main-body">
       Dad would stage elaborate situations using a one-armed man to teach us
@@ -13,4 +13,4 @@ const AboutPage = () => (
   </div>
 );
 
-export default AboutPage;
+export default VolunteersPage;
