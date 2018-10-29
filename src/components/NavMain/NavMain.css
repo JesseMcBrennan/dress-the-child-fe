@@ -30,3 +30,19 @@ li {
 .NavMain-a:hover {
   border-left: 2px black solid;
   padding-left: 35px; }
+
+.donate:hover {
+  border-left: 2px #ed1b23 solid;
+  padding-left: 35px; }
+
+.about:hover {
+  border-left: 2px #00aeef solid;
+  padding-left: 35px; }
+
+.mission:hover {
+  border-left: 2px #7e3e97 solid;
+  padding-left: 35px; }
+
+.partners:hover {
+  border-left: 2px #e40088 solid;
+  padding-left: 35px; }

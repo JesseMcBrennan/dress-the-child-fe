@@ -10,22 +10,22 @@ const NavMain = () => {
       </NavLink>
       <ul className="NavMain-buttons">
         <li>
-          <NavLink exact to="/donate" className="NavMain-a">
+          <NavLink exact to="/donate" className="NavMain-a donate">
             DONATE
           </NavLink>
         </li>
         <li>
-          <NavLink exact to="/about" className="NavMain-a">
+          <NavLink exact to="/about" className="NavMain-a about">
             ABOUT
           </NavLink>
         </li>
         <li>
-          <NavLink exact to="/mission" className="NavMain-a">
+          <NavLink exact to="/mission" className="NavMain-a mission">
             OUR MISSION
           </NavLink>
         </li>
         <li>
-          <NavLink exact to="/partners" className="NavMain-a">
+          <NavLink exact to="/partners" className="NavMain-a partners">
             PARTNERS
           </NavLink>
         </li>
