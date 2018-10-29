@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { withRouter, NavLink } from 'react-router-dom';
 import HomePage from '../HomePage/HomePage';
 import DonatePage from '../DonatePage/DonatePage';
-import AboutPage from '../AboutPage/AboutPage';
+import VolunteersPage from '../VolunteersPage/VolunteersPage';
 import MissionPage from '../MissionPage/MissionPage';
 import PartnersPage from '../PartnersPage/PartnersPage';
 import './MainContainer.css';
@@ -16,18 +16,9 @@ export class MainContainer extends Component {
       <section className="main-container">
         {location.pathname === `/` && <HomePage />}
         {location.pathname === `/donate` && <DonatePage />}
-        {location.pathname === `/about` && <AboutPage />}
         {location.pathname === `/mission` && <MissionPage />}
         {location.pathname === `/partners` && <PartnersPage />}
-        <NavLink
-          exact
-          to="/donate"
-          className={
-            location.pathname !== '/' ? 'donate-btn-hidden' : 'donate-btn'
-          }
-        >
-          Donate
-        </NavLink>
+        {location.pathname === `/about` && <VolunteersPage />}
       </section>
     );
   }
