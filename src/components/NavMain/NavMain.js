@@ -10,7 +10,7 @@ const NavMain = () => {
       </NavLink>
       <ul className="NavMain-buttons">
         <li>
-          <NavLink exact to="/donate" className="NavMain-a">
+          <NavLink exact to="/donate" className="NavMain-a donate">
             DONATE
           </NavLink>
         </li>
@@ -25,7 +25,7 @@ const NavMain = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink exact to="/partners" className="NavMain-a">
+          <NavLink exact to="/partners" className="NavMain-a partners">
             PARTNERS
           </NavLink>
         </li>
