@@ -1,15 +1,21 @@
 import React from 'react';
+import { withRouter, NavLink } from 'react-router-dom';
+import './HomePage.css';
 
 const HomePage = () => (
   <div className="display-card">
     <div className="main-logo" />
     <hr className="horizontal-rule" />
     <p className="main-body">
-      Dad would stage elaborate situations using a one-armed man to teach us
-      lessons. Smack of ham. What is she doing at a beauty pageant? Is she
-      running the lights or something? Chaw-chee, chaw-chee chaw-chee! Coo coo
-      ca cha! Ah coodle doodle do Caw ca caw, caw ca caw.
+      Dress the Child, sponsored by the Rio Grande Rotary Club, is an event
+      allowing children and their families a chance to shop for new clothing.
     </p>
+    <p className="main-body">
+      For some this will be their first ever retail experience.
+    </p>
+    <NavLink exact to="/donate" className="donate-btn">
+      Donate
+    </NavLink>
   </div>
 );
 
