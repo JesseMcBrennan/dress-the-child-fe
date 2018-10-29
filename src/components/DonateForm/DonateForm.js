@@ -40,7 +40,7 @@ class DonateForm extends Component {
   submit = async e => {
     console.log('test');
     this.setState({ disableBtn: true });
-    const { firstName, lastName, email, city, state, amount } = this.state;
+    const { firstName, lastName, email, city, state, amountTotal } = this.state;
     e.preventDefault();
     let { token } = await this.props.stripe.createToken({
       name: `${firstName} ${lastName}`,
@@ -55,7 +55,7 @@ class DonateForm extends Component {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           stripeToken: token.id,
-          stripeAmount: amount
+          stripeAmount: amountTotal*100
         })
       }
     );
