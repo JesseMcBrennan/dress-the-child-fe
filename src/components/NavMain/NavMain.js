@@ -30,6 +30,11 @@ const NavMain = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink exact to="/volunteer" className="NavMain-a">
+            VOLUNTEER
+          </NavLink>
+        </li>
+        <li>
           <NavLink exact to="/partners" className="NavMain-a">
             PARTNERS
           </NavLink>
