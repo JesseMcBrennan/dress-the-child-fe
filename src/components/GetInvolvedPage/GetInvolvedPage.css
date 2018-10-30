@@ -1,0 +1,16 @@
+.facebook-logo {
+  margin: auto;
+  width: 6.5rem;
+  height: 3.5rem;
+  background: no-repeat center/7.5rem url("../../images/find_us_on_facebook.jpg");
+  border: 0.1rem solid #4867ad;
+  padding: 0.1rem 1rem;
+  cursor: pointer;
+  border-radius: 0.15rem; }
+
+h3 {
+  margin: 1.3rem 0;
+  font-size: 2rem; }
+
+.spread-title {
+  margin: 1.3rem 0 0.7rem 0; }
