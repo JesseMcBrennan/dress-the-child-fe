@@ -20,8 +20,18 @@ const NavMain = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink exact to="/volunteers" className="NavMain-a">
-            VOLUNTEERS
+          <NavLink exact to="/get-involved" className="NavMain-a">
+            GET INVOLVED
+          </NavLink>
+        </li>
+        <li>
+          <NavLink exact to="/events" className="NavMain-a">
+            EVENTS
+          </NavLink>
+        </li>
+        <li>
+          <NavLink exact to="/volunteer" className="NavMain-a">
+            VOLUNTEER
           </NavLink>
         </li>
         <li>
