@@ -38,7 +38,6 @@ class DonateForm extends Component {
   };
 
   submit = async e => {
-    console.log('test');
     this.setState({ disableBtn: true });
     const { firstName, lastName, email, city, state, amountTotal } = this.state;
     e.preventDefault();
@@ -55,7 +54,7 @@ class DonateForm extends Component {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           stripeToken: token.id,
-          stripeAmount: amountTotal*100
+          stripeAmount: amountTotal * 100
         })
       }
     );
