@@ -1,4 +1,5 @@
 import React from 'react';
+import './MissionPage.css';
 
 const MissionPage = () => (
   <div className="display-card">
@@ -17,6 +18,10 @@ const MissionPage = () => (
       an improved opportunity for scholastic success, and have an opportunity
       for a better life.
     </p>
+    <div className="partner-logos">
+      <div className="partner-logo rotary-logo" />
+      <div className="partner-logo school-logo" />
+    </div>
   </div>
 );
 

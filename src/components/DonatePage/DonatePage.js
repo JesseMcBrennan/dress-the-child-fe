@@ -9,10 +9,11 @@ import './DonatePage.css';
 class DonatePage extends Component {
   render() {
     return (
-      <div className="display-card">
+      <div className="donate-card">
         <StripeProvider apiKey="pk_test_hANH4uSlssQdfIxxHpPwbzPd">
           <div className="donate-section">
-            <h1>Donate to Dress the Child</h1>
+            <h1 className="main-title">Donate</h1>
+            <hr className="horizontal-rule" />
             <Elements>
               <DonateForm />
             </Elements>

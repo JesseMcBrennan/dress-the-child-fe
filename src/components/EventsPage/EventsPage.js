@@ -2,32 +2,32 @@ import React from 'react';
 import './EventsPage.css';
 
 const EventsPage = () => (
-  <div className="display-card">
+  <div className="events-card">
     <h1 className="main-title">Events</h1>
     <hr className="horizontal-rule" />
-    <p className="main-body">32nd Annual Dinner Details:</p>
+    <h2 className="main-body-title">32nd Annual Dinner Details:</h2>
     <ul>
-      <li>
+      <li className="event-details-item">
         <i class="fa fa-calendar-alt" aria-hidden="true" />
         Date: Sunday October 7th
       </li>
-      <li>
+      <li className="event-details-item">
         <i class="fa fa-clock" aria-hidden="true" />
         Time: 6:00pm
       </li>
-      <li>
+      <li className="event-details-item">
         <i class="fa fa-map-marked-alt" aria-hidden="true" />
         Location: Las Cruces Convention Center
       </li>
-      <li>
+      <li className="event-details-item">
         <i class="fa fa-money-bill-alt" aria-hidden="true" />
         Cost: $60 per person
       </li>
     </ul>
     <p className="ticket-text">
-      For tickets and additional information, contact Boberg at 575-644-9469 or
-      dougboberg@comcast.net. You can also contact Campbell at 505-220-5185 or
-      vincent@primesalesmarketing.com.
+      For tickets and additional information: <br />
+      Contact Boberg at 575-644-9469 or dougboberg@comcast.net. <br /> Or <br />
+      Contact Campbell at 505-220-5185 or vincent@primesalesmarketing.com.
     </p>
   </div>
 );

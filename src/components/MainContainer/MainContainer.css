@@ -20,15 +20,15 @@
   text-overflow: fade; }
 
 .main-container {
-  width: 86vw;
+  position: absolute;
+  width: 85vw;
   height: 100vh;
-  background: no-repeat center/100em url("../../images/dtc9.jpg");
-  padding: 2rem 0 0 0; }
+  background: no-repeat center/100vw url("../../images/dtc9.jpg"); }
 
 .display-card {
   height: 82vh;
   width: 62vw;
-  margin: auto auto 3rem auto;
+  margin: 5rem auto auto auto;
   border: solid 0.4rem whitesmoke;
   border-radius: 0.15rem;
   background-color: rgba(245, 245, 245, 0.666); }
