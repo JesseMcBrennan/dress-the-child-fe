@@ -2,7 +2,7 @@ import React from 'react';
 import './MissionPage.css';
 
 const MissionPage = () => (
-  <div className="display-card">
+  <div className="mission-card">
     <h1 className="main-title">Our Mission</h1>
     <hr className="horizontal-rule" />
     <p className="main-body">
