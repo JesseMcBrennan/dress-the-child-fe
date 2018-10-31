@@ -12,7 +12,8 @@ class DonatePage extends Component {
       <div className="display-card">
         <StripeProvider apiKey="pk_test_hANH4uSlssQdfIxxHpPwbzPd">
           <div className="donate-section">
-            <h1>Donate to Dress the Child</h1>
+            <h1 className="main-title">Donate</h1>
+            <hr className="horizontal-rule" />
             <Elements>
               <DonateForm />
             </Elements>

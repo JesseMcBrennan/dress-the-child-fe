@@ -1,6 +1,6 @@
 .donate-form {
   width: 20rem;
-  margin: auto; }
+  margin: 2.3rem auto; }
 
 .cc-input {
   width: 293px;
@@ -13,6 +13,9 @@
   box-shadow: 0 1px 3px 0 #e6ebf1;
   -webkit-transition: box-shadow 150ms ease;
   transition: box-shadow 150ms ease; }
+
+.first-name-cc {
+  margin: 0 0 0.5rem 0; }
 
 .StripeElement {
   margin: 0.5rem 0;
@@ -36,19 +39,56 @@
 
 .submit-btn {
   color: #d9318a;
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.3rem;
   border: 0.1rem solid #d9318a;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-decoration: none;
   border-radius: 0.15rem;
   cursor: pointer;
-  background: none; }
+  background: none;
+  margin-top: -20px; }
 
 .submit-btn:hover {
   color: #3574b6;
   border: 0.1rem solid #3574b6; }
 
 .email-msg {
-  font-size: 0.8rem;
-  color: gray;
+  font-size: 0.9rem;
+  color: black;
   margin: 0; }
+
+.processing-msg {
+  font-size: 0.9rem;
+  width: auto;
+  margin: 0.1rem 0; }
+
+.donation-msg {
+  font-size: 1rem; }
+
+.transaction-msg {
+  font-size: 0.9rem;
+  width: auto;
+  margin: 0.1rem 0; }
+
+.final-donation-msg {
+  font-size: 1rem;
+  width: auto;
+  margin: 0.1rem 0; }
+
+.final-total {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 1.3rem 0; }
+
+.first-name {
+  text-transform: capitalize; }
+
+.loading-gif {
+  margin-top: 2rem;
+  background: no-repeat center/200px url("../../images/loading-gif.gif");
+  width: 400px;
+  height: 400px;
+  margin: auto; }
+
+.thanks-msg {
+  font-weight: 300; }
