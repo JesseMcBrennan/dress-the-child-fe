@@ -13,7 +13,9 @@ export class MainContainer extends Component {
 
     return (
       <section className="main-container">
-        <section className="display-card">
+        <section
+          className={location.pathname === '/' ? 'none' : 'display-card'}
+        >
           {location.pathname === `/` && <HomePage />}
           {location.pathname === `/donate` && <DonatePage />}
           {location.pathname === `/mission` && <MissionPage />}
