@@ -18,13 +18,23 @@ class DonateForm extends Component {
       disableBtn: false,
       amountTotal: 0,
       fees: 0,
-      isLoading: false
+      isLoading: false,
+      isError: false,
+      isChecked: false
     };
   }
 
   handleChange = e => {
     const { name, value } = e.target;
     this.setState({ [name]: value }, () => this.addTotal());
+  };
+
+  handleCheckbox = e => {
+    if (this.state.isChecked) {
+      this.setState({ isChecked: false });
+    } else {
+      this.setState({ isChecked: true });
+    }
   };
 
   addTotal = () => {
@@ -48,19 +58,23 @@ class DonateForm extends Component {
   };
 
   makeCharge = async (token, amountTotal) => {
-    let response = await fetch(
-      'https://dress-the-child-be.herokuapp.com/api/v1/charges/',
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          stripeToken: token.id,
-          stripeAmount: amountTotal * 100
-        })
+    try {
+      let response = await fetch(
+        'https://dress-the-child-be.herokuapp.com/api/v1/charges/',
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            stripeToken: token.id,
+            stripeAmount: amountTotal * 100
+          })
+        }
+      );
+      if (response.ok) {
+        this.setState({ complete: true, disableBtn: false, isLoading: false });
       }
-    );
-    if (response.ok) {
-      this.setState({ complete: true, disableBtn: false, isLoading: false });
+    } catch {
+      this.setState({ isError: true });
     }
   };
 
@@ -92,7 +106,8 @@ class DonateForm extends Component {
       amount,
       fees,
       amountTotal,
-      isLoading
+      isLoading,
+      isChecked
     } = this.state;
     if (isLoading) {
       return <div className="loading-gif" />;
@@ -108,77 +123,91 @@ class DonateForm extends Component {
     }
 
     return (
-      <form onSubmit={e => this.submit(e)} className="donate-form">
-        <input
-          type="text"
-          placeholder="First Name"
-          value={firstName}
-          name="firstName"
-          onChange={this.handleChange}
-          className="cc-input first-name-cc"
-        />
-        <input
-          type="text"
-          placeholder="Last Name"
-          value={lastname}
-          name="lastName"
-          onChange={this.handleChange}
-          className="cc-input"
-        />
-        <input
-          type="text"
-          placeholder="Amount"
-          value={amount}
-          name="amount"
-          onChange={e => this.handleChange(e)}
-          className="cc-input"
-        />
-        <p className="processing-msg">
-          Plus an additional ${fees > 0 ? fees : 0} to cover processing fees
-        </p>
-        <input
-          type="text"
-          placeholder="Email"
-          value={email}
-          name="email"
-          onChange={this.handleChange}
-          className="cc-input"
-        />
-        <p className="email-msg">
-          Your receipt will be sent to this email address
-        </p>
-        <input
-          type="text"
-          placeholder="City"
-          value={city}
-          name="city"
-          onChange={this.handleChange}
-          className="cc-input"
-        />
-        <input
-          type="text"
-          placeholder="State"
-          value={state}
-          name="state"
-          onChange={this.handleChange}
-          className="cc-input"
-        />
-        <CardElement style={style} />
-        <div className="final-donation-msg">
-          <p className="transaction-msg">
-            Transactions are secure and encrypted
-          </p>
+      <div className="donate-form">
+        <div className="anonymous-section">
+          <p className="anonymous-text">To donate anonymously click here: </p>
+          <input
+            type="checkbox"
+            className="anonymous-checkbox"
+            onChange={this.handleCheckbox}
+          />
         </div>
-        <h3 className="final-total">
-          Total: {amountTotal > 0 ? amountTotal : 0}
-        </h3>
-        <button
-          className="submit-btn"
-          disabled={this.state.disableBtn ? true : false}
-        >
-          Confirm
-        </button>
-      </form>
+        <form onSubmit={e => this.submit(e)}>
+          <input
+            type="text"
+            placeholder="First Name"
+            value={firstName}
+            name="firstName"
+            onChange={this.handleChange}
+            className="cc-input first-name-cc"
+            disabled={isChecked && true}
+          />
+          <input
+            type="text"
+            placeholder="Last Name"
+            value={lastname}
+            name="lastName"
+            onChange={this.handleChange}
+            className="cc-input"
+            disabled={isChecked && true}
+          />
+          <input
+            type="text"
+            placeholder="Email"
+            value={email}
+            name="email"
+            onChange={this.handleChange}
+            className="cc-input"
+          />
+          <p className="email-msg">
+            Your receipt will be sent to this email address
+          </p>
+          <input
+            type="text"
+            placeholder="Amount"
+            value={amount}
+            name="amount"
+            onChange={e => this.handleChange(e)}
+            className="cc-input"
+          />
+          <p className="processing-msg">
+            Plus an additional ${fees > 0 ? fees : 0} to cover processing fees
+          </p>
+          <input
+            type="text"
+            placeholder="City"
+            value={city}
+            name="city"
+            onChange={this.handleChange}
+            className="cc-input"
+            disabled={isChecked && true}
+          />
+          <input
+            type="text"
+            placeholder="State"
+            value={state}
+            name="state"
+            onChange={this.handleChange}
+            className="cc-input"
+            disabled={isChecked && true}
+          />
+          <CardElement style={style} />
+          <div className="final-donation-msg">
+            <p className="transaction-msg">
+              Transactions are secure and encrypted
+            </p>
+          </div>
+          <h3 className="final-total">
+            Total: {amountTotal > 0 ? amountTotal : 0}
+          </h3>
+          <button
+            className="submit-btn"
+            disabled={this.state.disableBtn ? true : false}
+          >
+            Confirm
+          </button>
+        </form>
+      </div>
     );
   }
 }

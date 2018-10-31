@@ -1,6 +1,6 @@
 .donate-form {
   width: 20rem;
-  margin: 2.3rem auto; }
+  margin: 1rem auto; }
 
 .cc-input {
   width: 293px;
@@ -13,6 +13,9 @@
   box-shadow: 0 1px 3px 0 #e6ebf1;
   -webkit-transition: box-shadow 150ms ease;
   transition: box-shadow 150ms ease; }
+
+.cc-input:disabled {
+  background-color: lightgray; }
 
 .first-name-cc {
   margin: 0 0 0.5rem 0; }
@@ -38,19 +41,25 @@
   background-color: #fefde5 !important; }
 
 .submit-btn {
-  color: #d9318a;
+  color: #047177;
   padding: 0.3rem 1.3rem;
-  border: 0.1rem solid #d9318a;
+  border: 0.1rem solid #047177;
   font-size: 1.7rem;
   text-decoration: none;
   border-radius: 0.15rem;
   cursor: pointer;
-  background: none;
+  background: whitesmoke;
   margin-top: -20px; }
 
 .submit-btn:hover {
-  color: #3574b6;
-  border: 0.1rem solid #3574b6; }
+  color: whitesmoke;
+  border: 0.1rem solid whitesmoke;
+  background: #047177; }
+
+.submit-btn:active {
+  color: #047177;
+  border: 0.1rem solid #047177;
+  background: whitesmoke; }
 
 .email-msg {
   font-size: 0.9rem;
@@ -60,7 +69,8 @@
 .processing-msg {
   font-size: 0.9rem;
   width: auto;
-  margin: 0.1rem 0; }
+  margin: 0.1rem 0;
+  color: black; }
 
 .donation-msg {
   font-size: 1rem; }
@@ -92,3 +102,16 @@
 
 .thanks-msg {
   font-weight: 300; }
+
+.anonymous-text {
+  margin: 0 0 0.1rem 0;
+  font-size: 0.9rem; }
+
+.anonymous-section {
+  display: flex;
+  flex-direction: row;
+  width: 20rem;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto; }
