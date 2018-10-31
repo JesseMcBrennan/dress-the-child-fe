@@ -1,5 +1,5 @@
 .navMain {
-  width: 15em;
+  width: 15vw;
   height: 100vh;
   border-right: 1px solid grey;
   margin: 0; }
@@ -24,9 +24,12 @@ li {
 
 .NavMain-a {
   text-decoration: none;
-  padding-left: 37px;
+  padding-left: 30px;
   color: grey; }
 
 .NavMain-a:hover {
   border-left: 2px black solid;
-  padding-left: 35px; }
+  padding-left: 28px; }
+
+.Nav-item {
+  width: 20rem; }

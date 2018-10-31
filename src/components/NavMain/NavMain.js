@@ -9,34 +9,24 @@ const NavMain = () => {
         <div className="navLogo" />
       </NavLink>
       <ul className="NavMain-buttons">
-        <li>
+        <li className="Nav-item">
           <NavLink exact to="/donate" className="NavMain-a">
             DONATE
           </NavLink>
         </li>
-        <li>
+        <li className="Nav-item">
           <NavLink exact to="/mission" className="NavMain-a">
             OUR MISSION
           </NavLink>
         </li>
-        <li>
-          <NavLink exact to="/get-involved" className="NavMain-a">
-            GET INVOLVED
-          </NavLink>
-        </li>
-        <li>
+        <li className="Nav-item">
           <NavLink exact to="/events" className="NavMain-a">
             EVENTS
           </NavLink>
         </li>
-        <li>
+        <li className="Nav-item">
           <NavLink exact to="/volunteer" className="NavMain-a">
             VOLUNTEER
-          </NavLink>
-        </li>
-        <li>
-          <NavLink exact to="/partners" className="NavMain-a">
-            PARTNERS
           </NavLink>
         </li>
       </ul>
