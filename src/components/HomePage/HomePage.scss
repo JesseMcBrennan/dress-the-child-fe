@@ -1,6 +1,8 @@
+$teal: #047177;
+
 .main-logo {
   font-family: 'dtc-font', sans-serif;
-  color: #449dba;
+  color: $teal;
   font-size: 4rem;
   content: url('../../images/DressTheChild_FinalLogo.svg');
   height: 11rem;
@@ -16,16 +18,25 @@
 }
 
 .donate-btn {
-  color: whitesmoke;
+  color: $teal;
   padding: 0.5rem 1.5rem;
-  border: 0.1rem solid whitesmoke;
+  border: 0.1rem solid $teal;
   font-size: 2rem;
   text-decoration: none;
   border-radius: 0.15rem;
   cursor: pointer;
+  background: whitesmoke;
+  transition: 0.3s;
 }
 
 .donate-btn:hover {
-  color: #458790;
-  border: 0.1rem solid #458790;
+  color: whitesmoke;
+  border: 0.1rem solid whitesmoke;
+  background: $teal;
+}
+
+.donate-btn:active {
+  color: $teal;
+  border: 0.1rem solid $teal;
+  background: whitesmoke;
 }
