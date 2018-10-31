@@ -23,16 +23,17 @@
 }
 
 .main-container {
+  position: absolute;
   width: 85vw;
   height: 100vh;
   background: no-repeat center/100vw url('../../images/dtc9.jpg');
-  padding: 2rem 0 0 0;
+  // padding: 2rem 0 0 0;
 }
 
 .display-card {
   height: 82vh;
   width: 62vw;
-  margin: auto auto 3rem auto;
+  margin: 5rem auto auto auto;
   border: solid 0.4rem whitesmoke;
   border-radius: 0.15rem;
   background-color: rgba($color: whitesmoke, $alpha: 0.666);

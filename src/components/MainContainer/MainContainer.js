@@ -13,11 +13,13 @@ export class MainContainer extends Component {
 
     return (
       <section className="main-container">
-        {location.pathname === `/` && <HomePage />}
-        {location.pathname === `/donate` && <DonatePage />}
-        {location.pathname === `/mission` && <MissionPage />}
-        {location.pathname === `/events` && <EventsPage />}
-        {location.pathname === `/volunteer` && <VolunteerPage />}
+        <section className="display-card">
+          {location.pathname === `/` && <HomePage />}
+          {location.pathname === `/donate` && <DonatePage />}
+          {location.pathname === `/mission` && <MissionPage />}
+          {location.pathname === `/events` && <EventsPage />}
+          {location.pathname === `/volunteer` && <VolunteerPage />}
+        </section>
       </section>
     );
   }

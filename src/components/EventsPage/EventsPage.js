@@ -2,7 +2,7 @@ import React from 'react';
 import './EventsPage.css';
 
 const EventsPage = () => (
-  <div className="display-card">
+  <div className="events-card">
     <h1 className="main-title">Events</h1>
     <hr className="horizontal-rule" />
     <h2 className="main-body-title">32nd Annual Dinner Details:</h2>

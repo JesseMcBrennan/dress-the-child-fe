@@ -2,7 +2,7 @@ import React from 'react';
 import './VolunteerPage.css';
 
 const VolunteerPage = () => (
-  <div className="display-card">
+  <div className="volunteer-card">
     <h1 className="main-title">Volunteer</h1>
     <hr className="horizontal-rule" />
     <p className="main-body-volunteer">
