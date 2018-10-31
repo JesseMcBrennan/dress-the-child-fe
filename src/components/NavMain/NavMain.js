@@ -11,6 +11,8 @@ const NavMain = () => {
       <ul className="NavMain-buttons">
         <li className="Nav-item">
           <NavLink exact to="/donate" className="NavMain-a">
+        <li>
+          <NavLink exact to="/donate" className="NavMain-a donate">
             DONATE
           </NavLink>
         </li>
@@ -27,6 +29,12 @@ const NavMain = () => {
         <li className="Nav-item">
           <NavLink exact to="/volunteer" className="NavMain-a">
             VOLUNTEER
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink exact to="/partners" className="NavMain-a partners">
+            PARTNERS
           </NavLink>
         </li>
       </ul>
