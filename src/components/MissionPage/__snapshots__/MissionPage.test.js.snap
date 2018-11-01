@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionPage should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MissionPage
+    location={
+      Object {
+        "pathname": "/mission",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="main-title"
+        >
+          Our Mission
+        </h1>,
+        <hr
+          className="horizontal-rule"
+        />,
+        <p
+          className="main-body"
+        >
+          The mission of the Las Cruces Rio Grande Rotary Foundation’s Dress The Child program is to provide new clothing and shoes for children living in the poorest families in Dona Ana County. Many of these children have never had new clothes and have never had the opportunity to shop for clothes that might be appealing to them. The founders and program volunteers believe that children whom do not have adequate clothing can’t help but have lower self esteem than other children and tend to perform poorly in school and suffer from other social issues. We believe that by providing these children with new clothes, these kids will have better self worth, an improved opportunity for scholastic success, and have an opportunity for a better life.
+        </p>,
+        <div
+          className="partner-logos"
+        >
+          <div
+            className="partner-logo rotary-logo"
+          />
+          <div
+            className="partner-logo school-logo"
+          />
+        </div>,
+      ],
+      "className": "mission-card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Our Mission",
+          "className": "main-title",
+        },
+        "ref": null,
+        "rendered": "Our Mission",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "horizontal-rule",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "The mission of the Las Cruces Rio Grande Rotary Foundation’s Dress The Child program is to provide new clothing and shoes for children living in the poorest families in Dona Ana County. Many of these children have never had new clothes and have never had the opportunity to shop for clothes that might be appealing to them. The founders and program volunteers believe that children whom do not have adequate clothing can’t help but have lower self esteem than other children and tend to perform poorly in school and suffer from other social issues. We believe that by providing these children with new clothes, these kids will have better self worth, an improved opportunity for scholastic success, and have an opportunity for a better life.",
+          "className": "main-body",
+        },
+        "ref": null,
+        "rendered": "The mission of the Las Cruces Rio Grande Rotary Foundation’s Dress The Child program is to provide new clothing and shoes for children living in the poorest families in Dona Ana County. Many of these children have never had new clothes and have never had the opportunity to shop for clothes that might be appealing to them. The founders and program volunteers believe that children whom do not have adequate clothing can’t help but have lower self esteem than other children and tend to perform poorly in school and suffer from other social issues. We believe that by providing these children with new clothes, these kids will have better self worth, an improved opportunity for scholastic success, and have an opportunity for a better life.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="partner-logo rotary-logo"
+            />,
+            <div
+              className="partner-logo school-logo"
+            />,
+          ],
+          "className": "partner-logos",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "partner-logo rotary-logo",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "partner-logo school-logo",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="main-title"
+          >
+            Our Mission
+          </h1>,
+          <hr
+            className="horizontal-rule"
+          />,
+          <p
+            className="main-body"
+          >
+            The mission of the Las Cruces Rio Grande Rotary Foundation’s Dress The Child program is to provide new clothing and shoes for children living in the poorest families in Dona Ana County. Many of these children have never had new clothes and have never had the opportunity to shop for clothes that might be appealing to them. The founders and program volunteers believe that children whom do not have adequate clothing can’t help but have lower self esteem than other children and tend to perform poorly in school and suffer from other social issues. We believe that by providing these children with new clothes, these kids will have better self worth, an improved opportunity for scholastic success, and have an opportunity for a better life.
+          </p>,
+          <div
+            className="partner-logos"
+          >
+            <div
+              className="partner-logo rotary-logo"
+            />
+            <div
+              className="partner-logo school-logo"
+            />
+          </div>,
+        ],
+        "className": "mission-card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Our Mission",
+            "className": "main-title",
+          },
+          "ref": null,
+          "rendered": "Our Mission",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "horizontal-rule",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "The mission of the Las Cruces Rio Grande Rotary Foundation’s Dress The Child program is to provide new clothing and shoes for children living in the poorest families in Dona Ana County. Many of these children have never had new clothes and have never had the opportunity to shop for clothes that might be appealing to them. The founders and program volunteers believe that children whom do not have adequate clothing can’t help but have lower self esteem than other children and tend to perform poorly in school and suffer from other social issues. We believe that by providing these children with new clothes, these kids will have better self worth, an improved opportunity for scholastic success, and have an opportunity for a better life.",
+            "className": "main-body",
+          },
+          "ref": null,
+          "rendered": "The mission of the Las Cruces Rio Grande Rotary Foundation’s Dress The Child program is to provide new clothing and shoes for children living in the poorest families in Dona Ana County. Many of these children have never had new clothes and have never had the opportunity to shop for clothes that might be appealing to them. The founders and program volunteers believe that children whom do not have adequate clothing can’t help but have lower self esteem than other children and tend to perform poorly in school and suffer from other social issues. We believe that by providing these children with new clothes, these kids will have better self worth, an improved opportunity for scholastic success, and have an opportunity for a better life.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="partner-logo rotary-logo"
+              />,
+              <div
+                className="partner-logo school-logo"
+              />,
+            ],
+            "className": "partner-logos",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "partner-logo rotary-logo",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "partner-logo school-logo",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
