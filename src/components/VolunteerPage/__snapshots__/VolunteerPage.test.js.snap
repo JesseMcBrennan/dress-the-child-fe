@@ -1,0 +1,515 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VolunteerPage should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <VolunteerPage
+    location={
+      Object {
+        "pathname": "/volunteer",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="main-title"
+        >
+          Volunteer
+        </h1>,
+        <hr
+          className="horizontal-rule"
+        />,
+        <div
+          className="main-body-volunteer"
+        >
+          <p
+            className="main-body-volunteer"
+          >
+            We spend our annual budget each year during November and December by taking hundreds of children shopping.  We match each child with at least one volunteer to take him or her through the store, and assist in making good decisions.  Our shopping dates for 2018 are listed below:
+          </p>
+          <ul
+            className="shopping-event-list"
+          >
+            <li
+              className="shopping-event-list-item"
+            >
+              Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy
+            </li>
+            <li
+              className="shopping-event-list-item"
+            >
+              Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy
+            </li>
+            <li
+              className="shopping-event-list-item"
+            >
+              Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's
+            </li>
+            <li
+              className="shopping-event-list-item"
+            >
+              Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy
+            </li>
+          </ul>
+          <p
+            className="contact-msg"
+          >
+            Please contact Doug (575.644.9469) or Matt (575.993.2331) for more information
+          </p>
+        </div>,
+      ],
+      "className": "volunteer-card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Volunteer",
+          "className": "main-title",
+        },
+        "ref": null,
+        "rendered": "Volunteer",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "horizontal-rule",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="main-body-volunteer"
+            >
+              We spend our annual budget each year during November and December by taking hundreds of children shopping.  We match each child with at least one volunteer to take him or her through the store, and assist in making good decisions.  Our shopping dates for 2018 are listed below:
+            </p>,
+            <ul
+              className="shopping-event-list"
+            >
+              <li
+                className="shopping-event-list-item"
+              >
+                Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy
+              </li>
+              <li
+                className="shopping-event-list-item"
+              >
+                Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy
+              </li>
+              <li
+                className="shopping-event-list-item"
+              >
+                Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's
+              </li>
+              <li
+                className="shopping-event-list-item"
+              >
+                Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy
+              </li>
+            </ul>,
+            <p
+              className="contact-msg"
+            >
+              Please contact Doug (575.644.9469) or Matt (575.993.2331) for more information
+            </p>,
+          ],
+          "className": "main-body-volunteer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "We spend our annual budget each year during November and December by taking hundreds of children shopping.  We match each child with at least one volunteer to take him or her through the store, and assist in making good decisions.  Our shopping dates for 2018 are listed below:",
+              "className": "main-body-volunteer",
+            },
+            "ref": null,
+            "rendered": "We spend our annual budget each year during November and December by taking hundreds of children shopping.  We match each child with at least one volunteer to take him or her through the store, and assist in making good decisions.  Our shopping dates for 2018 are listed below:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="shopping-event-list-item"
+                >
+                  Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy
+                </li>,
+                <li
+                  className="shopping-event-list-item"
+                >
+                  Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy
+                </li>,
+                <li
+                  className="shopping-event-list-item"
+                >
+                  Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's
+                </li>,
+                <li
+                  className="shopping-event-list-item"
+                >
+                  Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy
+                </li>,
+              ],
+              "className": "shopping-event-list",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy",
+                  "className": "shopping-event-list-item",
+                },
+                "ref": null,
+                "rendered": "Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy",
+                  "className": "shopping-event-list-item",
+                },
+                "ref": null,
+                "rendered": "Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's",
+                  "className": "shopping-event-list-item",
+                },
+                "ref": null,
+                "rendered": "Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy",
+                  "className": "shopping-event-list-item",
+                },
+                "ref": null,
+                "rendered": "Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy",
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Please contact Doug (575.644.9469) or Matt (575.993.2331) for more information",
+              "className": "contact-msg",
+            },
+            "ref": null,
+            "rendered": "Please contact Doug (575.644.9469) or Matt (575.993.2331) for more information",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="main-title"
+          >
+            Volunteer
+          </h1>,
+          <hr
+            className="horizontal-rule"
+          />,
+          <div
+            className="main-body-volunteer"
+          >
+            <p
+              className="main-body-volunteer"
+            >
+              We spend our annual budget each year during November and December by taking hundreds of children shopping.  We match each child with at least one volunteer to take him or her through the store, and assist in making good decisions.  Our shopping dates for 2018 are listed below:
+            </p>
+            <ul
+              className="shopping-event-list"
+            >
+              <li
+                className="shopping-event-list-item"
+              >
+                Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy
+              </li>
+              <li
+                className="shopping-event-list-item"
+              >
+                Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy
+              </li>
+              <li
+                className="shopping-event-list-item"
+              >
+                Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's
+              </li>
+              <li
+                className="shopping-event-list-item"
+              >
+                Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy
+              </li>
+            </ul>
+            <p
+              className="contact-msg"
+            >
+              Please contact Doug (575.644.9469) or Matt (575.993.2331) for more information
+            </p>
+          </div>,
+        ],
+        "className": "volunteer-card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Volunteer",
+            "className": "main-title",
+          },
+          "ref": null,
+          "rendered": "Volunteer",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "horizontal-rule",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="main-body-volunteer"
+              >
+                We spend our annual budget each year during November and December by taking hundreds of children shopping.  We match each child with at least one volunteer to take him or her through the store, and assist in making good decisions.  Our shopping dates for 2018 are listed below:
+              </p>,
+              <ul
+                className="shopping-event-list"
+              >
+                <li
+                  className="shopping-event-list-item"
+                >
+                  Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy
+                </li>
+                <li
+                  className="shopping-event-list-item"
+                >
+                  Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy
+                </li>
+                <li
+                  className="shopping-event-list-item"
+                >
+                  Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's
+                </li>
+                <li
+                  className="shopping-event-list-item"
+                >
+                  Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy
+                </li>
+              </ul>,
+              <p
+                className="contact-msg"
+              >
+                Please contact Doug (575.644.9469) or Matt (575.993.2331) for more information
+              </p>,
+            ],
+            "className": "main-body-volunteer",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "We spend our annual budget each year during November and December by taking hundreds of children shopping.  We match each child with at least one volunteer to take him or her through the store, and assist in making good decisions.  Our shopping dates for 2018 are listed below:",
+                "className": "main-body-volunteer",
+              },
+              "ref": null,
+              "rendered": "We spend our annual budget each year during November and December by taking hundreds of children shopping.  We match each child with at least one volunteer to take him or her through the store, and assist in making good decisions.  Our shopping dates for 2018 are listed below:",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="shopping-event-list-item"
+                  >
+                    Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy
+                  </li>,
+                  <li
+                    className="shopping-event-list-item"
+                  >
+                    Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy
+                  </li>,
+                  <li
+                    className="shopping-event-list-item"
+                  >
+                    Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's
+                  </li>,
+                  <li
+                    className="shopping-event-list-item"
+                  >
+                    Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy
+                  </li>,
+                ],
+                "className": "shopping-event-list",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy",
+                    "className": "shopping-event-list-item",
+                  },
+                  "ref": null,
+                  "rendered": "Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy",
+                    "className": "shopping-event-list-item",
+                  },
+                  "ref": null,
+                  "rendered": "Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's",
+                    "className": "shopping-event-list-item",
+                  },
+                  "ref": null,
+                  "rendered": "Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy",
+                    "className": "shopping-event-list-item",
+                  },
+                  "ref": null,
+                  "rendered": "Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy",
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Please contact Doug (575.644.9469) or Matt (575.993.2331) for more information",
+                "className": "contact-msg",
+              },
+              "ref": null,
+              "rendered": "Please contact Doug (575.644.9469) or Matt (575.993.2331) for more information",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

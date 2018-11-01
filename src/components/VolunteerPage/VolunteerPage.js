@@ -1,7 +1,7 @@
 import React from 'react';
 import './VolunteerPage.css';
 
-const VolunteerPage = () => (
+export const VolunteerPage = () => (
   <div className="volunteer-card">
     <h1 className="main-title">Volunteer</h1>
     <hr className="horizontal-rule" />
