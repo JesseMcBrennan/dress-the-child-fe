@@ -2,9 +2,8 @@ import React from 'react';
 import { withRouter, NavLink } from 'react-router-dom';
 import './HomePage.css';
 
-const HomePage = () => (
+export const HomePage = () => (
   <div className="home-card">
-    {/* <div className="main-logo" /> */}
     <h1 className="home-title">
       PROVIDING CHILDREN IN NEED
       <br />
@@ -16,4 +15,4 @@ const HomePage = () => (
   </div>
 );
 
-export default HomePage;
+export default withRouter(HomePage);
