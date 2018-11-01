@@ -6,33 +6,33 @@
 .main-title {
   font-family: 'dtc-font', sans-serif;
   color: #449dba;
-  font-size: 7rem;
+  font-size: 6rem;
   height: auto;
-  margin: 3rem auto;
+  margin: 1rem auto 0.5rem auto;
 }
 
 .main-body {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.8rem;
-  padding: 0 2rem;
+  font-size: 1.7rem;
+  padding: 0 3rem;
   color: #615d5d;
   overflow: scroll;
   overflow-wrap: normal;
-  max-height: 25rem;
-  text-overflow: fade;
+  max-height: 35rem;
 }
 
 .main-container {
-  width: 86vw;
+  position: absolute;
+  width: 85vw;
   height: 100vh;
-  background: no-repeat center/100em url('../../images/dtc7.jpg');
-  padding: 2rem 0 0 0;
+  background: no-repeat center/100vw url('../../images/dtc9.jpg');
+  // padding: 2rem 0 0 0;
 }
 
 .display-card {
   height: 82vh;
   width: 62vw;
-  margin: auto auto 3rem auto;
+  margin: 5rem auto auto auto;
   border: solid 0.4rem whitesmoke;
   border-radius: 0.15rem;
   background-color: rgba($color: whitesmoke, $alpha: 0.666);

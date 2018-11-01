@@ -1,0 +1,21 @@
+.partner-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: auto;
+  height: 5rem;
+  margin: 0px 25rem;
+}
+
+.partner-logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.rotary-logo {
+  background: no-repeat center/4rem url('../../images/rotary-logo.png');
+}
+
+.school-logo {
+  background: no-repeat center/4rem url('../../images/school-logo.png');
+}

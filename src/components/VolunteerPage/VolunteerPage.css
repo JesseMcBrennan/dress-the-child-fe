@@ -1,0 +1,30 @@
+.main-body-volunteer {
+  color: #2d313d;
+  font-size: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.8rem;
+  padding: 0 2rem;
+  color: #615d5d;
+  overflow: scroll;
+  overflow-wrap: normal;
+  max-height: 40rem; }
+
+.shopping-event-list {
+  text-align: left; }
+
+.shopping-event-list-item {
+  width: 38rem;
+  font-weight: 600;
+  list-style-type: circle;
+  padding: 0.5rem 1.5rem; }
+
+.main-body-title {
+  font-weight: 300;
+  font-size: 3rem; }
+
+.volunteer-card {
+  overflow: scroll; }
+
+.contact-msg {
+  font-size: 1.5rem;
+  margin: 0 3rem; }

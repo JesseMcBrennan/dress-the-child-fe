@@ -1,0 +1,661 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavMain should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavMain />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          exact={true}
+          to="/"
+        >
+          <div
+            className="navLogo"
+          />
+        </NavLink>,
+        <ul
+          className="NavMain-buttons"
+        >
+          <li
+            className="Nav-item"
+          >
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="NavMain-a"
+              exact={true}
+              to="/donate"
+            >
+              DONATE
+            </NavLink>
+          </li>
+          <li
+            className="Nav-item"
+          >
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="NavMain-a"
+              exact={true}
+              to="/mission"
+            >
+              OUR MISSION
+            </NavLink>
+          </li>
+          <li
+            className="Nav-item"
+          >
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="NavMain-a"
+              exact={true}
+              to="/events"
+            >
+              EVENTS
+            </NavLink>
+          </li>
+          <li
+            className="Nav-item"
+          >
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="NavMain-a"
+              exact={true}
+              to="/volunteer"
+            >
+              VOLUNTEER
+            </NavLink>
+          </li>
+        </ul>,
+      ],
+      "className": "navMain",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "aria-current": "page",
+          "children": <div
+            className="navLogo"
+          />,
+          "exact": true,
+          "to": "/",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "navLogo",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="Nav-item"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/donate"
+              >
+                DONATE
+              </NavLink>
+            </li>,
+            <li
+              className="Nav-item"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/mission"
+              >
+                OUR MISSION
+              </NavLink>
+            </li>,
+            <li
+              className="Nav-item"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/events"
+              >
+                EVENTS
+              </NavLink>
+            </li>,
+            <li
+              className="Nav-item"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/volunteer"
+              >
+                VOLUNTEER
+              </NavLink>
+            </li>,
+          ],
+          "className": "NavMain-buttons",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/donate"
+              >
+                DONATE
+              </NavLink>,
+              "className": "Nav-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "DONATE",
+                "className": "NavMain-a",
+                "exact": true,
+                "to": "/donate",
+              },
+              "ref": null,
+              "rendered": "DONATE",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/mission"
+              >
+                OUR MISSION
+              </NavLink>,
+              "className": "Nav-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "OUR MISSION",
+                "className": "NavMain-a",
+                "exact": true,
+                "to": "/mission",
+              },
+              "ref": null,
+              "rendered": "OUR MISSION",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/events"
+              >
+                EVENTS
+              </NavLink>,
+              "className": "Nav-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "EVENTS",
+                "className": "NavMain-a",
+                "exact": true,
+                "to": "/events",
+              },
+              "ref": null,
+              "rendered": "EVENTS",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/volunteer"
+              >
+                VOLUNTEER
+              </NavLink>,
+              "className": "Nav-item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "VOLUNTEER",
+                "className": "NavMain-a",
+                "exact": true,
+                "to": "/volunteer",
+              },
+              "ref": null,
+              "rendered": "VOLUNTEER",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            exact={true}
+            to="/"
+          >
+            <div
+              className="navLogo"
+            />
+          </NavLink>,
+          <ul
+            className="NavMain-buttons"
+          >
+            <li
+              className="Nav-item"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/donate"
+              >
+                DONATE
+              </NavLink>
+            </li>
+            <li
+              className="Nav-item"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/mission"
+              >
+                OUR MISSION
+              </NavLink>
+            </li>
+            <li
+              className="Nav-item"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/events"
+              >
+                EVENTS
+              </NavLink>
+            </li>
+            <li
+              className="Nav-item"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="NavMain-a"
+                exact={true}
+                to="/volunteer"
+              >
+                VOLUNTEER
+              </NavLink>
+            </li>
+          </ul>,
+        ],
+        "className": "navMain",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": <div
+              className="navLogo"
+            />,
+            "exact": true,
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "navLogo",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className="Nav-item"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="NavMain-a"
+                  exact={true}
+                  to="/donate"
+                >
+                  DONATE
+                </NavLink>
+              </li>,
+              <li
+                className="Nav-item"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="NavMain-a"
+                  exact={true}
+                  to="/mission"
+                >
+                  OUR MISSION
+                </NavLink>
+              </li>,
+              <li
+                className="Nav-item"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="NavMain-a"
+                  exact={true}
+                  to="/events"
+                >
+                  EVENTS
+                </NavLink>
+              </li>,
+              <li
+                className="Nav-item"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="NavMain-a"
+                  exact={true}
+                  to="/volunteer"
+                >
+                  VOLUNTEER
+                </NavLink>
+              </li>,
+            ],
+            "className": "NavMain-buttons",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="NavMain-a"
+                  exact={true}
+                  to="/donate"
+                >
+                  DONATE
+                </NavLink>,
+                "className": "Nav-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "DONATE",
+                  "className": "NavMain-a",
+                  "exact": true,
+                  "to": "/donate",
+                },
+                "ref": null,
+                "rendered": "DONATE",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="NavMain-a"
+                  exact={true}
+                  to="/mission"
+                >
+                  OUR MISSION
+                </NavLink>,
+                "className": "Nav-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "OUR MISSION",
+                  "className": "NavMain-a",
+                  "exact": true,
+                  "to": "/mission",
+                },
+                "ref": null,
+                "rendered": "OUR MISSION",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="NavMain-a"
+                  exact={true}
+                  to="/events"
+                >
+                  EVENTS
+                </NavLink>,
+                "className": "Nav-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "EVENTS",
+                  "className": "NavMain-a",
+                  "exact": true,
+                  "to": "/events",
+                },
+                "ref": null,
+                "rendered": "EVENTS",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="NavMain-a"
+                  exact={true}
+                  to="/volunteer"
+                >
+                  VOLUNTEER
+                </NavLink>,
+                "className": "Nav-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "VOLUNTEER",
+                  "className": "NavMain-a",
+                  "exact": true,
+                  "to": "/volunteer",
+                },
+                "ref": null,
+                "rendered": "VOLUNTEER",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

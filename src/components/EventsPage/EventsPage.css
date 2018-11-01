@@ -1,0 +1,25 @@
+ul {
+  text-align: left;
+  padding-left: 3rem;
+  font-size: 1.5rem; }
+
+li {
+  list-style-type: none;
+  width: 30rem;
+  margin: auto; }
+
+.ticket-text {
+  font-size: 1.5rem;
+  padding: 0 3rem; }
+
+.fa {
+  margin-right: 0.5rem; }
+
+.main-body-title {
+  font-size: 2.5rem; }
+
+.ticket-text::first-line {
+  font-size: 2rem; }
+
+.display-card {
+  color: #2d313d; }

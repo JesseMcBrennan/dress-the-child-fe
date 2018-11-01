@@ -1,7 +1,8 @@
 import React from 'react';
+import './MissionPage.css';
 
-const MissionPage = () => (
-  <div className="display-card">
+export const MissionPage = () => (
+  <div className="mission-card">
     <h1 className="main-title">Our Mission</h1>
     <hr className="horizontal-rule" />
     <p className="main-body">
@@ -17,6 +18,10 @@ const MissionPage = () => (
       an improved opportunity for scholastic success, and have an opportunity
       for a better life.
     </p>
+    <div className="partner-logos">
+      <div className="partner-logo rotary-logo" />
+      <div className="partner-logo school-logo" />
+    </div>
   </div>
 );
 

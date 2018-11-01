@@ -2,31 +2,31 @@ import React from 'react';
 import './NavMain.css';
 import { BrowserRouter as Router, withRouter, NavLink } from 'react-router-dom';
 
-const NavMain = () => {
+export const NavMain = () => {
   return (
     <div className="navMain">
       <NavLink exact to="/">
         <div className="navLogo" />
       </NavLink>
       <ul className="NavMain-buttons">
-        <li>
-          <NavLink exact to="/donate" className="NavMain-a donate">
+        <li className="Nav-item">
+          <NavLink exact to="/donate" className="NavMain-a">
             DONATE
           </NavLink>
         </li>
-        <li>
+        <li className="Nav-item">
           <NavLink exact to="/mission" className="NavMain-a">
             OUR MISSION
           </NavLink>
         </li>
-        <li>
-          <NavLink exact to="/volunteers" className="NavMain-a">
-            VOLUNTEERS
+        <li className="Nav-item">
+          <NavLink exact to="/events" className="NavMain-a">
+            EVENTS
           </NavLink>
         </li>
-        <li>
-          <NavLink exact to="/partners" className="NavMain-a partners">
-            PARTNERS
+        <li className="Nav-item">
+          <NavLink exact to="/volunteer" className="NavMain-a">
+            VOLUNTEER
           </NavLink>
         </li>
       </ul>
