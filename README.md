@@ -5,7 +5,8 @@
 
 Dress the Child was a collaboration between back end engineering students [Emmie Hayes](https://github.com/emmiehayes/bike_share) and [JP Lynch](https://github.com/JPLynch35) along with front end students [Cody Lynn Taft](https://github.com/codytaft) and [Jesse McFadden](https://github.com/JesseMcBrennan)
 
-### ![Live on Heroku](https://dress-the-child.herokuapp.com/)
+### Live on Heroku 
+https://dress-the-child.herokuapp.com/
 
 ### Technology
 
