@@ -1,7 +1,7 @@
 import React from 'react';
 import './MissionPage.css';
 
-const MissionPage = () => (
+export const MissionPage = () => (
   <div className="mission-card">
     <h1 className="main-title">Our Mission</h1>
     <hr className="horizontal-rule" />
