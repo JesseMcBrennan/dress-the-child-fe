@@ -17,3 +17,4 @@ Dress the Child was a collaboration between back end engineering students [Emmie
 ### UX / UI
 
 ![Alt Text](https://github.com/JesseMcBrennan/dress-the-child-fe/blob/master/dress-the-child-ui-gif.gif)
+
