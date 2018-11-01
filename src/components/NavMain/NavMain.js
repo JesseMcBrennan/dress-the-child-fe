@@ -2,7 +2,7 @@ import React from 'react';
 import './NavMain.css';
 import { BrowserRouter as Router, withRouter, NavLink } from 'react-router-dom';
 
-const NavMain = () => {
+export const NavMain = () => {
   return (
     <div className="navMain">
       <NavLink exact to="/">
