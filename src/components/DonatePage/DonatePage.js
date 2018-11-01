@@ -6,7 +6,7 @@ import DonateForm from '../DonateForm/DonateForm';
 
 import './DonatePage.css';
 
-class DonatePage extends Component {
+export class DonatePage extends Component {
   render() {
     return (
       <div className="donate-card">
