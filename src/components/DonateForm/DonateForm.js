@@ -3,11 +3,10 @@ import { CardElement, injectStripe } from 'react-stripe-elements';
 
 import './DonateForm.css';
 
-class DonateForm extends Component {
+export class DonateForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      complete: false,
       firstName: '',
       lastName: '',
       amount: '',
@@ -15,9 +14,10 @@ class DonateForm extends Component {
       email: '',
       city: '',
       state: '',
-      disableBtn: false,
       amountTotal: 0,
       fees: 0,
+      disableBtn: false,
+      complete: false,
       isLoading: false,
       isError: false,
       isChecked: false
@@ -72,6 +72,8 @@ class DonateForm extends Component {
       );
       if (response.ok) {
         this.setState({ complete: true, disableBtn: false, isLoading: false });
+      } else {
+        this.setState({ isError: true, isLoading: false });
       }
     } catch {
       this.setState({ isError: true });
@@ -107,17 +109,25 @@ class DonateForm extends Component {
       fees,
       amountTotal,
       isLoading,
-      isChecked
+      isChecked,
+      isError
     } = this.state;
     if (isLoading) {
       return <div className="loading-gif" />;
     }
+
     if (complete) {
       return (
         <h1 className="thanks-msg">
           Thanks <span className="first-name">{firstName}</span>! <br />
           Your donation of ${amount / 100} has been processed. <br />
           100% of your donation will help a child in need.
+        </h1>
+      );
+    } else if (isError) {
+      return (
+        <h1 className="error-msg">
+          There was an error processing your payment
         </h1>
       );
     }
@@ -160,7 +170,7 @@ class DonateForm extends Component {
             className="cc-input"
           />
           <p className="email-msg">
-            Your receipt will be sent to this email address
+            Your email address will only be used for receipt
           </p>
           <input
             type="text"

@@ -1,0 +1,1101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionPage should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DonateForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="anonymous-section"
+        >
+          <p
+            className="anonymous-text"
+          >
+            To donate anonymously click here: 
+          </p>
+          <input
+            className="anonymous-checkbox"
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </div>,
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            className="cc-input first-name-cc"
+            disabled={false}
+            name="firstName"
+            onChange={[Function]}
+            placeholder="First Name"
+            type="text"
+            value=""
+          />
+          <input
+            className="cc-input"
+            disabled={false}
+            name="lastName"
+            onChange={[Function]}
+            placeholder="Last Name"
+            type="text"
+          />
+          <input
+            className="cc-input"
+            name="email"
+            onChange={[Function]}
+            placeholder="Email"
+            type="text"
+            value=""
+          />
+          <p
+            className="email-msg"
+          >
+            Your email address will only be used for receipt
+          </p>
+          <input
+            className="cc-input"
+            name="amount"
+            onChange={[Function]}
+            placeholder="Amount"
+            type="text"
+            value=""
+          />
+          <p
+            className="processing-msg"
+          >
+            Plus an additional $
+            0
+             to cover processing fees
+          </p>
+          <input
+            className="cc-input"
+            disabled={false}
+            name="city"
+            onChange={[Function]}
+            placeholder="City"
+            type="text"
+            value=""
+          />
+          <input
+            className="cc-input"
+            disabled={false}
+            name="state"
+            onChange={[Function]}
+            placeholder="State"
+            type="text"
+            value=""
+          />
+          <CardElement
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onReady={[Function]}
+            style={
+              Object {
+                "base": Object {
+                  "::placeholder": Object {
+                    "color": "#aab7c4",
+                  },
+                  "color": "#32325d",
+                  "fontFamily": "\\"Helvetica Neue\\", Helvetica, sans-serif",
+                  "fontSize": "16px",
+                  "fontSmoothing": "antialiased",
+                  "lineHeight": "18px",
+                },
+                "invalid": Object {
+                  "color": "#fa755a",
+                  "iconColor": "#fa755a",
+                },
+              }
+            }
+          />
+          <div
+            className="final-donation-msg"
+          >
+            <p
+              className="transaction-msg"
+            >
+              Transactions are secure and encrypted
+            </p>
+          </div>
+          <h3
+            className="final-total"
+          >
+            Total: 
+            0
+          </h3>
+          <button
+            className="submit-btn"
+            disabled={false}
+          >
+            Confirm
+          </button>
+        </form>,
+      ],
+      "className": "donate-form",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="anonymous-text"
+            >
+              To donate anonymously click here: 
+            </p>,
+            <input
+              className="anonymous-checkbox"
+              onChange={[Function]}
+              type="checkbox"
+            />,
+          ],
+          "className": "anonymous-section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "To donate anonymously click here: ",
+              "className": "anonymous-text",
+            },
+            "ref": null,
+            "rendered": "To donate anonymously click here: ",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "anonymous-checkbox",
+              "onChange": [Function],
+              "type": "checkbox",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="cc-input first-name-cc"
+              disabled={false}
+              name="firstName"
+              onChange={[Function]}
+              placeholder="First Name"
+              type="text"
+              value=""
+            />,
+            <input
+              className="cc-input"
+              disabled={false}
+              name="lastName"
+              onChange={[Function]}
+              placeholder="Last Name"
+              type="text"
+            />,
+            <input
+              className="cc-input"
+              name="email"
+              onChange={[Function]}
+              placeholder="Email"
+              type="text"
+              value=""
+            />,
+            <p
+              className="email-msg"
+            >
+              Your email address will only be used for receipt
+            </p>,
+            <input
+              className="cc-input"
+              name="amount"
+              onChange={[Function]}
+              placeholder="Amount"
+              type="text"
+              value=""
+            />,
+            <p
+              className="processing-msg"
+            >
+              Plus an additional $
+              0
+               to cover processing fees
+            </p>,
+            <input
+              className="cc-input"
+              disabled={false}
+              name="city"
+              onChange={[Function]}
+              placeholder="City"
+              type="text"
+              value=""
+            />,
+            <input
+              className="cc-input"
+              disabled={false}
+              name="state"
+              onChange={[Function]}
+              placeholder="State"
+              type="text"
+              value=""
+            />,
+            <CardElement
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onReady={[Function]}
+              style={
+                Object {
+                  "base": Object {
+                    "::placeholder": Object {
+                      "color": "#aab7c4",
+                    },
+                    "color": "#32325d",
+                    "fontFamily": "\\"Helvetica Neue\\", Helvetica, sans-serif",
+                    "fontSize": "16px",
+                    "fontSmoothing": "antialiased",
+                    "lineHeight": "18px",
+                  },
+                  "invalid": Object {
+                    "color": "#fa755a",
+                    "iconColor": "#fa755a",
+                  },
+                }
+              }
+            />,
+            <div
+              className="final-donation-msg"
+            >
+              <p
+                className="transaction-msg"
+              >
+                Transactions are secure and encrypted
+              </p>
+            </div>,
+            <h3
+              className="final-total"
+            >
+              Total: 
+              0
+            </h3>,
+            <button
+              className="submit-btn"
+              disabled={false}
+            >
+              Confirm
+            </button>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "cc-input first-name-cc",
+              "disabled": false,
+              "name": "firstName",
+              "onChange": [Function],
+              "placeholder": "First Name",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "cc-input",
+              "disabled": false,
+              "name": "lastName",
+              "onChange": [Function],
+              "placeholder": "Last Name",
+              "type": "text",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "cc-input",
+              "name": "email",
+              "onChange": [Function],
+              "placeholder": "Email",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Your email address will only be used for receipt",
+              "className": "email-msg",
+            },
+            "ref": null,
+            "rendered": "Your email address will only be used for receipt",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "cc-input",
+              "name": "amount",
+              "onChange": [Function],
+              "placeholder": "Amount",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Plus an additional $",
+                0,
+                " to cover processing fees",
+              ],
+              "className": "processing-msg",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Plus an additional $",
+              0,
+              " to cover processing fees",
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "cc-input",
+              "disabled": false,
+              "name": "city",
+              "onChange": [Function],
+              "placeholder": "City",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "cc-input",
+              "disabled": false,
+              "name": "state",
+              "onChange": [Function],
+              "placeholder": "State",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": undefined,
+              "id": undefined,
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onFocus": [Function],
+              "onReady": [Function],
+              "style": Object {
+                "base": Object {
+                  "::placeholder": Object {
+                    "color": "#aab7c4",
+                  },
+                  "color": "#32325d",
+                  "fontFamily": "\\"Helvetica Neue\\", Helvetica, sans-serif",
+                  "fontSize": "16px",
+                  "fontSmoothing": "antialiased",
+                  "lineHeight": "18px",
+                },
+                "invalid": Object {
+                  "color": "#fa755a",
+                  "iconColor": "#fa755a",
+                },
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p
+                className="transaction-msg"
+              >
+                Transactions are secure and encrypted
+              </p>,
+              "className": "final-donation-msg",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Transactions are secure and encrypted",
+                "className": "transaction-msg",
+              },
+              "ref": null,
+              "rendered": "Transactions are secure and encrypted",
+              "type": "p",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Total: ",
+                0,
+              ],
+              "className": "final-total",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Total: ",
+              0,
+            ],
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Confirm",
+              "className": "submit-btn",
+              "disabled": false,
+            },
+            "ref": null,
+            "rendered": "Confirm",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="anonymous-section"
+          >
+            <p
+              className="anonymous-text"
+            >
+              To donate anonymously click here: 
+            </p>
+            <input
+              className="anonymous-checkbox"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </div>,
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              className="cc-input first-name-cc"
+              disabled={false}
+              name="firstName"
+              onChange={[Function]}
+              placeholder="First Name"
+              type="text"
+              value=""
+            />
+            <input
+              className="cc-input"
+              disabled={false}
+              name="lastName"
+              onChange={[Function]}
+              placeholder="Last Name"
+              type="text"
+            />
+            <input
+              className="cc-input"
+              name="email"
+              onChange={[Function]}
+              placeholder="Email"
+              type="text"
+              value=""
+            />
+            <p
+              className="email-msg"
+            >
+              Your email address will only be used for receipt
+            </p>
+            <input
+              className="cc-input"
+              name="amount"
+              onChange={[Function]}
+              placeholder="Amount"
+              type="text"
+              value=""
+            />
+            <p
+              className="processing-msg"
+            >
+              Plus an additional $
+              0
+               to cover processing fees
+            </p>
+            <input
+              className="cc-input"
+              disabled={false}
+              name="city"
+              onChange={[Function]}
+              placeholder="City"
+              type="text"
+              value=""
+            />
+            <input
+              className="cc-input"
+              disabled={false}
+              name="state"
+              onChange={[Function]}
+              placeholder="State"
+              type="text"
+              value=""
+            />
+            <CardElement
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onReady={[Function]}
+              style={
+                Object {
+                  "base": Object {
+                    "::placeholder": Object {
+                      "color": "#aab7c4",
+                    },
+                    "color": "#32325d",
+                    "fontFamily": "\\"Helvetica Neue\\", Helvetica, sans-serif",
+                    "fontSize": "16px",
+                    "fontSmoothing": "antialiased",
+                    "lineHeight": "18px",
+                  },
+                  "invalid": Object {
+                    "color": "#fa755a",
+                    "iconColor": "#fa755a",
+                  },
+                }
+              }
+            />
+            <div
+              className="final-donation-msg"
+            >
+              <p
+                className="transaction-msg"
+              >
+                Transactions are secure and encrypted
+              </p>
+            </div>
+            <h3
+              className="final-total"
+            >
+              Total: 
+              0
+            </h3>
+            <button
+              className="submit-btn"
+              disabled={false}
+            >
+              Confirm
+            </button>
+          </form>,
+        ],
+        "className": "donate-form",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="anonymous-text"
+              >
+                To donate anonymously click here: 
+              </p>,
+              <input
+                className="anonymous-checkbox"
+                onChange={[Function]}
+                type="checkbox"
+              />,
+            ],
+            "className": "anonymous-section",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "To donate anonymously click here: ",
+                "className": "anonymous-text",
+              },
+              "ref": null,
+              "rendered": "To donate anonymously click here: ",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "anonymous-checkbox",
+                "onChange": [Function],
+                "type": "checkbox",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="cc-input first-name-cc"
+                disabled={false}
+                name="firstName"
+                onChange={[Function]}
+                placeholder="First Name"
+                type="text"
+                value=""
+              />,
+              <input
+                className="cc-input"
+                disabled={false}
+                name="lastName"
+                onChange={[Function]}
+                placeholder="Last Name"
+                type="text"
+              />,
+              <input
+                className="cc-input"
+                name="email"
+                onChange={[Function]}
+                placeholder="Email"
+                type="text"
+                value=""
+              />,
+              <p
+                className="email-msg"
+              >
+                Your email address will only be used for receipt
+              </p>,
+              <input
+                className="cc-input"
+                name="amount"
+                onChange={[Function]}
+                placeholder="Amount"
+                type="text"
+                value=""
+              />,
+              <p
+                className="processing-msg"
+              >
+                Plus an additional $
+                0
+                 to cover processing fees
+              </p>,
+              <input
+                className="cc-input"
+                disabled={false}
+                name="city"
+                onChange={[Function]}
+                placeholder="City"
+                type="text"
+                value=""
+              />,
+              <input
+                className="cc-input"
+                disabled={false}
+                name="state"
+                onChange={[Function]}
+                placeholder="State"
+                type="text"
+                value=""
+              />,
+              <CardElement
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onReady={[Function]}
+                style={
+                  Object {
+                    "base": Object {
+                      "::placeholder": Object {
+                        "color": "#aab7c4",
+                      },
+                      "color": "#32325d",
+                      "fontFamily": "\\"Helvetica Neue\\", Helvetica, sans-serif",
+                      "fontSize": "16px",
+                      "fontSmoothing": "antialiased",
+                      "lineHeight": "18px",
+                    },
+                    "invalid": Object {
+                      "color": "#fa755a",
+                      "iconColor": "#fa755a",
+                    },
+                  }
+                }
+              />,
+              <div
+                className="final-donation-msg"
+              >
+                <p
+                  className="transaction-msg"
+                >
+                  Transactions are secure and encrypted
+                </p>
+              </div>,
+              <h3
+                className="final-total"
+              >
+                Total: 
+                0
+              </h3>,
+              <button
+                className="submit-btn"
+                disabled={false}
+              >
+                Confirm
+              </button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "cc-input first-name-cc",
+                "disabled": false,
+                "name": "firstName",
+                "onChange": [Function],
+                "placeholder": "First Name",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "cc-input",
+                "disabled": false,
+                "name": "lastName",
+                "onChange": [Function],
+                "placeholder": "Last Name",
+                "type": "text",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "cc-input",
+                "name": "email",
+                "onChange": [Function],
+                "placeholder": "Email",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Your email address will only be used for receipt",
+                "className": "email-msg",
+              },
+              "ref": null,
+              "rendered": "Your email address will only be used for receipt",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "cc-input",
+                "name": "amount",
+                "onChange": [Function],
+                "placeholder": "Amount",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Plus an additional $",
+                  0,
+                  " to cover processing fees",
+                ],
+                "className": "processing-msg",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Plus an additional $",
+                0,
+                " to cover processing fees",
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "cc-input",
+                "disabled": false,
+                "name": "city",
+                "onChange": [Function],
+                "placeholder": "City",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "cc-input",
+                "disabled": false,
+                "name": "state",
+                "onChange": [Function],
+                "placeholder": "State",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": undefined,
+                "id": undefined,
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "onReady": [Function],
+                "style": Object {
+                  "base": Object {
+                    "::placeholder": Object {
+                      "color": "#aab7c4",
+                    },
+                    "color": "#32325d",
+                    "fontFamily": "\\"Helvetica Neue\\", Helvetica, sans-serif",
+                    "fontSize": "16px",
+                    "fontSmoothing": "antialiased",
+                    "lineHeight": "18px",
+                  },
+                  "invalid": Object {
+                    "color": "#fa755a",
+                    "iconColor": "#fa755a",
+                  },
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <p
+                  className="transaction-msg"
+                >
+                  Transactions are secure and encrypted
+                </p>,
+                "className": "final-donation-msg",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Transactions are secure and encrypted",
+                  "className": "transaction-msg",
+                },
+                "ref": null,
+                "rendered": "Transactions are secure and encrypted",
+                "type": "p",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Total: ",
+                  0,
+                ],
+                "className": "final-total",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Total: ",
+                0,
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Confirm",
+                "className": "submit-btn",
+                "disabled": false,
+              },
+              "ref": null,
+              "rendered": "Confirm",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

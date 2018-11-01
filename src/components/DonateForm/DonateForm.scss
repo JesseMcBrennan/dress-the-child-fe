@@ -124,6 +124,10 @@ $teal: #047177;
   font-weight: 300;
 }
 
+.error-msg {
+  font-weight: 300;
+}
+
 .anonymous-text {
   margin: 0 0 0.1rem 0;
   font-size: 0.9rem;
@@ -137,7 +141,4 @@ $teal: #047177;
   align-items: center;
   height: auto;
   width: auto;
-}
-
-.anonymous-input {
 }
