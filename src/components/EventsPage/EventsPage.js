@@ -1,7 +1,7 @@
 import React from 'react';
 import './EventsPage.css';
 
-const EventsPage = () => (
+export const EventsPage = () => (
   <div className="events-card">
     <h1 className="main-title">Events</h1>
     <hr className="horizontal-rule" />

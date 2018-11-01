@@ -1,0 +1,721 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventsPage should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EventsPage
+    location={
+      Object {
+        "pathname": "/events",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="main-title"
+        >
+          Events
+        </h1>,
+        <hr
+          className="horizontal-rule"
+        />,
+        <h2
+          className="main-body-title"
+        >
+          32nd Annual Dinner Details:
+        </h2>,
+        <ul>
+          <li
+            className="event-details-item"
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-calendar-alt"
+            />
+            Date: Sunday October 7th
+          </li>
+          <li
+            className="event-details-item"
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-clock"
+            />
+            Time: 6:00pm
+          </li>
+          <li
+            className="event-details-item"
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-map-marked-alt"
+            />
+            Location: Las Cruces Convention Center
+          </li>
+          <li
+            className="event-details-item"
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-money-bill-alt"
+            />
+            Cost: $60 per person
+          </li>
+        </ul>,
+        <p
+          className="ticket-text"
+        >
+          For tickets and additional information: 
+          <br />
+          Contact Boberg at 575-644-9469 or dougboberg@comcast.net 
+          <br />
+           Or 
+          <br />
+          Contact Campbell at 505-220-5185 or vincent@primesalesmarketing.com
+        </p>,
+      ],
+      "className": "events-card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Events",
+          "className": "main-title",
+        },
+        "ref": null,
+        "rendered": "Events",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "horizontal-rule",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "32nd Annual Dinner Details:",
+          "className": "main-body-title",
+        },
+        "ref": null,
+        "rendered": "32nd Annual Dinner Details:",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="event-details-item"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-calendar-alt"
+              />
+              Date: Sunday October 7th
+            </li>,
+            <li
+              className="event-details-item"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-clock"
+              />
+              Time: 6:00pm
+            </li>,
+            <li
+              className="event-details-item"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-map-marked-alt"
+              />
+              Location: Las Cruces Convention Center
+            </li>,
+            <li
+              className="event-details-item"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-money-bill-alt"
+              />
+              Cost: $60 per person
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  aria-hidden="true"
+                  className="fa fa-calendar-alt"
+                />,
+                "Date: Sunday October 7th",
+              ],
+              "className": "event-details-item",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "aria-hidden": "true",
+                  "className": "fa fa-calendar-alt",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "Date: Sunday October 7th",
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  aria-hidden="true"
+                  className="fa fa-clock"
+                />,
+                "Time: 6:00pm",
+              ],
+              "className": "event-details-item",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "aria-hidden": "true",
+                  "className": "fa fa-clock",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "Time: 6:00pm",
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  aria-hidden="true"
+                  className="fa fa-map-marked-alt"
+                />,
+                "Location: Las Cruces Convention Center",
+              ],
+              "className": "event-details-item",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "aria-hidden": "true",
+                  "className": "fa fa-map-marked-alt",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "Location: Las Cruces Convention Center",
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  aria-hidden="true"
+                  className="fa fa-money-bill-alt"
+                />,
+                "Cost: $60 per person",
+              ],
+              "className": "event-details-item",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "aria-hidden": "true",
+                  "className": "fa fa-money-bill-alt",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "Cost: $60 per person",
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "For tickets and additional information: ",
+            <br />,
+            "Contact Boberg at 575-644-9469 or dougboberg@comcast.net ",
+            <br />,
+            " Or ",
+            <br />,
+            "Contact Campbell at 505-220-5185 or vincent@primesalesmarketing.com",
+          ],
+          "className": "ticket-text",
+        },
+        "ref": null,
+        "rendered": Array [
+          "For tickets and additional information: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Contact Boberg at 575-644-9469 or dougboberg@comcast.net ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          " Or ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Contact Campbell at 505-220-5185 or vincent@primesalesmarketing.com",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="main-title"
+          >
+            Events
+          </h1>,
+          <hr
+            className="horizontal-rule"
+          />,
+          <h2
+            className="main-body-title"
+          >
+            32nd Annual Dinner Details:
+          </h2>,
+          <ul>
+            <li
+              className="event-details-item"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-calendar-alt"
+              />
+              Date: Sunday October 7th
+            </li>
+            <li
+              className="event-details-item"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-clock"
+              />
+              Time: 6:00pm
+            </li>
+            <li
+              className="event-details-item"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-map-marked-alt"
+              />
+              Location: Las Cruces Convention Center
+            </li>
+            <li
+              className="event-details-item"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-money-bill-alt"
+              />
+              Cost: $60 per person
+            </li>
+          </ul>,
+          <p
+            className="ticket-text"
+          >
+            For tickets and additional information: 
+            <br />
+            Contact Boberg at 575-644-9469 or dougboberg@comcast.net 
+            <br />
+             Or 
+            <br />
+            Contact Campbell at 505-220-5185 or vincent@primesalesmarketing.com
+          </p>,
+        ],
+        "className": "events-card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Events",
+            "className": "main-title",
+          },
+          "ref": null,
+          "rendered": "Events",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "horizontal-rule",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "32nd Annual Dinner Details:",
+            "className": "main-body-title",
+          },
+          "ref": null,
+          "rendered": "32nd Annual Dinner Details:",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className="event-details-item"
+              >
+                <i
+                  aria-hidden="true"
+                  className="fa fa-calendar-alt"
+                />
+                Date: Sunday October 7th
+              </li>,
+              <li
+                className="event-details-item"
+              >
+                <i
+                  aria-hidden="true"
+                  className="fa fa-clock"
+                />
+                Time: 6:00pm
+              </li>,
+              <li
+                className="event-details-item"
+              >
+                <i
+                  aria-hidden="true"
+                  className="fa fa-map-marked-alt"
+                />
+                Location: Las Cruces Convention Center
+              </li>,
+              <li
+                className="event-details-item"
+              >
+                <i
+                  aria-hidden="true"
+                  className="fa fa-money-bill-alt"
+                />
+                Cost: $60 per person
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-calendar-alt"
+                  />,
+                  "Date: Sunday October 7th",
+                ],
+                "className": "event-details-item",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-hidden": "true",
+                    "className": "fa fa-calendar-alt",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                "Date: Sunday October 7th",
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-clock"
+                  />,
+                  "Time: 6:00pm",
+                ],
+                "className": "event-details-item",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-hidden": "true",
+                    "className": "fa fa-clock",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                "Time: 6:00pm",
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-map-marked-alt"
+                  />,
+                  "Location: Las Cruces Convention Center",
+                ],
+                "className": "event-details-item",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-hidden": "true",
+                    "className": "fa fa-map-marked-alt",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                "Location: Las Cruces Convention Center",
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-money-bill-alt"
+                  />,
+                  "Cost: $60 per person",
+                ],
+                "className": "event-details-item",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-hidden": "true",
+                    "className": "fa fa-money-bill-alt",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                "Cost: $60 per person",
+              ],
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "For tickets and additional information: ",
+              <br />,
+              "Contact Boberg at 575-644-9469 or dougboberg@comcast.net ",
+              <br />,
+              " Or ",
+              <br />,
+              "Contact Campbell at 505-220-5185 or vincent@primesalesmarketing.com",
+            ],
+            "className": "ticket-text",
+          },
+          "ref": null,
+          "rendered": Array [
+            "For tickets and additional information: ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Contact Boberg at 575-644-9469 or dougboberg@comcast.net ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            " Or ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Contact Campbell at 505-220-5185 or vincent@primesalesmarketing.com",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
