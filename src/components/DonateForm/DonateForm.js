@@ -120,7 +120,7 @@ export class DonateForm extends Component {
       return (
         <h1 className="thanks-msg">
           Thanks <span className="first-name">{firstName}</span>! <br />
-          Your donation of ${amount / 100} has been processed. <br />
+          Your donation of ${amountTotal} has been processed. <br />
           100% of your donation will help a child in need.
         </h1>
       );
