@@ -21,18 +21,10 @@
   max-height: 35rem;
 }
 
-.main-container {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background: no-repeat center/100vw url('../../images/dtc9.jpg');
-  // padding: 2rem 0 0 0;
-}
-
 .display-card {
   height: 82vh;
   width: 62vw;
-  margin: 5rem auto auto auto;
+  margin: auto;
   border: solid 0.4rem whitesmoke;
   border-radius: 0.15rem;
   background-color: rgba($color: whitesmoke, $alpha: 0.666);

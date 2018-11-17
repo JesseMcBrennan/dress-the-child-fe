@@ -18,16 +18,10 @@
   overflow-wrap: normal;
   max-height: 35rem; }
 
-.main-container {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background: no-repeat center/100vw url("../../images/dtc9.jpg"); }
-
 .display-card {
   height: 82vh;
   width: 62vw;
-  margin: 5rem auto auto auto;
+  margin: auto;
   border: solid 0.4rem whitesmoke;
   border-radius: 0.15rem;
   background-color: rgba(245, 245, 245, 0.666); }
