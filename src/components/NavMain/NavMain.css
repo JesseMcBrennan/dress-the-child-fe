@@ -3,12 +3,12 @@
   height: 10vh;
   display: flex;
   flex-direction: row;
-  justify-content: right; }
+  justify-content: space-between; }
 
 .navLogo {
-  background: no-repeat center/10rem url("../../images/DressTheChild_noPants-01.svg");
-  height: 10rem;
-  width: 100%; }
+  background: no-repeat center/7rem url(/static/media/DressTheChild_noPants-01.f3b9737c.svg);
+  height: 7rem;
+  width: 9rem; }
 
 img {
   height: 5em; }
@@ -16,21 +16,19 @@ img {
 .NavMain-buttons {
   display: flex;
   flex-direction: row;
-  text-align: right;
-  width: 100vw;
-  padding: 0; }
+  justify-content: flex-end;
+  width: 35rem;
+  padding: 0;
+  font-size: 1.2rem; }
 
 .NavMain-a {
   text-decoration: none;
   color: whitesmoke; }
 
-.NavMain-a:hover {
-  border-left: 2px black solid;
-  padding-left: 28px; }
-
 .Nav-item {
-  width: 10rem;
-  text-align: center; }
+  width: 7.5rem;
+  text-align: center;
+  margin: auto 0.001rem; }
 
 .donate:hover {
   border-left: 2px #ed1b23 solid;
