@@ -21,7 +21,7 @@
 .display-card {
   height: 82vh;
   width: 62vw;
-  margin: 5rem auto auto auto;
+  margin: auto;
   border: solid 0.4rem whitesmoke;
   border-radius: 0.15rem;
   background-color: rgba(245, 245, 245, 0.666); }
