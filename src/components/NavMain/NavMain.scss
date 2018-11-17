@@ -1,8 +1,9 @@
 .navMain {
-  width: 15vw;
-  height: 100vh;
-  border-right: 1px solid grey;
-  margin: 0;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .navLogo {
@@ -18,8 +19,8 @@ img {
 
 .NavMain-buttons {
   display: flex;
-  flex-direction: column;
-  text-align: left;
+  flex-direction: row;
+  text-align: right;
   padding-inline-start: 0;
 }
 
