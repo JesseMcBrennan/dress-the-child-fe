@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, withRouter, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, withRouter } from 'react-router-dom';
 import MainContainer from '../../components/MainContainer/MainContainer';
 import './App.css';
 import NavMain from '../../components/NavMain/NavMain';
