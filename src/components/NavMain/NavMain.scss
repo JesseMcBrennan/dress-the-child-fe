@@ -31,35 +31,14 @@ img {
   color: whitesmoke;
 }
 
-// .NavMain-a:hover {
-//   border-left: 2px black solid;
-//   padding-left: 28px;
-// }
+.NavMain-a:hover {
+  color: #b33e6a;
+}
 
 .Nav-item {
   width: 7.5rem;
   text-align: center;
   margin: auto 0.001rem;
-}
-
-.donate:hover {
-  border-left: 2px rgb(237, 27, 35) solid;
-  padding-left: 35px;
-}
-
-.about:hover {
-  border-left: 2px rgb(0, 174, 239) solid;
-  padding-left: 35px;
-}
-
-.mission:hover {
-  border-left: 2px rgb(126, 62, 151) solid;
-  padding-left: 35px;
-}
-
-.partners:hover {
-  border-left: 2px rgb(228, 0, 136) solid;
-  padding-left: 35px;
 }
 
 @media only screen and (max-width: 680px) {
