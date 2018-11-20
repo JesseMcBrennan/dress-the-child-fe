@@ -8,6 +8,12 @@
 
 .navLogo {
   background: no-repeat center/7rem
+    url('../../images/DressTheChild_noPants-04.svg');
+  height: 7rem;
+  width: 9rem;
+}
+.navLogo:hover {
+  background: no-repeat center/7rem
     url('../../images/DressTheChild_noPants-01.svg');
   height: 7rem;
   width: 9rem;
