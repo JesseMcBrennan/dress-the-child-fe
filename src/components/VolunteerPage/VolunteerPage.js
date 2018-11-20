@@ -27,8 +27,7 @@ export const VolunteerPage = () => (
         </li>
       </ul>
       <p className="contact-msg">
-        Please contact Doug (575.644.9469) or Matt (575.993.2331) for more
-        information
+        Please email mholt520@gmail.com for more information
       </p>
     </div>
   </div>

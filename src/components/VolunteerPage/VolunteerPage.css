@@ -10,7 +10,8 @@
   max-height: 40rem; }
 
 .shopping-event-list {
-  text-align: left; }
+  text-align: left;
+  padding-left: 5%; }
 
 .shopping-event-list-item {
   width: 38rem;
