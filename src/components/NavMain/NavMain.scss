@@ -61,3 +61,10 @@ img {
   border-left: 2px rgb(228, 0, 136) solid;
   padding-left: 35px;
 }
+
+@media only screen and (max-width: 680px) {
+  .NavMain-buttons {
+    width: 25rem;
+    font-size: 1rem;
+  }
+}
