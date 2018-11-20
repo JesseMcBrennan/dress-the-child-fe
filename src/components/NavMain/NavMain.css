@@ -8,7 +8,8 @@
 .navLogo {
   background: no-repeat center/7rem url("../../images/DressTheChild_noPants-04.svg");
   height: 7rem;
-  width: 9rem; }
+  width: 9rem;
+  transition: 0.5s; }
 
 .navLogo:hover {
   background: no-repeat center/7rem url("../../images/DressTheChild_noPants-01.svg");
@@ -28,7 +29,8 @@ img {
 
 .NavMain-a {
   text-decoration: none;
-  color: whitesmoke; }
+  color: whitesmoke;
+  transition: 0.8s; }
 
 .NavMain-a:hover {
   color: #b33e6a; }
