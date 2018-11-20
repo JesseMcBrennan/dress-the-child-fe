@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavMain.css';
-import { BrowserRouter as Router, withRouter, NavLink } from 'react-router-dom';
+import { withRouter, NavLink } from 'react-router-dom';
 
 export const NavMain = () => {
   return (

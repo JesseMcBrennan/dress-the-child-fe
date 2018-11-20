@@ -26,8 +26,8 @@ export const EventsPage = () => (
     </ul>
     <p className="ticket-text">
       For tickets and additional information: <br />
-      Contact Boberg at 575-644-9469 or dougboberg@comcast.net <br /> Or <br />
-      Contact Campbell at 505-220-5185 or vincent@primesalesmarketing.com
+      Contact Boberg at dougboberg@comcast.net <br /> Or <br />
+      Contact Campbell at vincent@primesalesmarketing.com
     </p>
   </div>
 );

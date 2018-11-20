@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter, NavLink } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import HomePage from '../HomePage/HomePage';
 import DonatePage from '../DonatePage/DonatePage';
 import VolunteerPage from '../VolunteerPage/VolunteerPage';

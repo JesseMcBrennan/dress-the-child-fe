@@ -22,7 +22,7 @@
 
 .StripeElement {
   margin: 0.5rem 0;
-  width: auto;
+  width: 293px;
   background-color: white;
   padding: 10px 12px;
   border-radius: 4px;
@@ -118,3 +118,14 @@
   align-items: center;
   height: auto;
   width: auto; }
+
+@media only screen and (max-width: 590px) {
+  .cc-input {
+    width: 70%; }
+  .StripeElement {
+    width: 70%;
+    margin: auto; } }
+
+@media only screen and (max-width: 590px) {
+  .donate-form {
+    width: 100%; } }

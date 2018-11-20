@@ -13,7 +13,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.7rem;
   padding: 0 3rem;
-  color: #615d5d;
+  color: #111111;
   overflow: scroll;
   overflow-wrap: normal;
   max-height: 35rem; }
@@ -21,7 +21,11 @@
 .display-card {
   height: 82vh;
   width: 62vw;
-  margin: auto;
+  margin: 1rem auto auto auto;
   border: solid 0.4rem whitesmoke;
   border-radius: 0.15rem;
   background-color: rgba(245, 245, 245, 0.666); }
+
+@media only screen and (max-width: 1270px) {
+  .main-body {
+    font-size: 1.6rem; } }

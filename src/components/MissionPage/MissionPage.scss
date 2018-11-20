@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   width: auto;
   height: 5rem;
-  margin: 0px 20rem;
+  margin: 0px 35%;
 }
 
 .partner-logo {
@@ -18,4 +18,34 @@
 
 .school-logo {
   background: no-repeat center/4rem url('../../images/school-logo.png');
+}
+
+@media only screen and (max-width: 1270px) {
+  p.main-body {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  p.main-body {
+    font-size: 1rem;
+  }
+  h1.main-title {
+    font-size: 5rem;
+  }
+  .partner-logos {
+    margin: 0px 25%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  p.main-body {
+    font-size: 0.9rem;
+  }
+  h1.main-title {
+    font-size: 4rem;
+  }
+  .partner-logos {
+    margin: 0px 20%;
+  }
 }
