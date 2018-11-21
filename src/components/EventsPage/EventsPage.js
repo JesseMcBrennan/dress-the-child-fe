@@ -6,7 +6,7 @@ export const EventsPage = () => (
     <h1 className="main-title">Events</h1>
     <hr className="horizontal-rule" />
     <h2 className="main-body-title">32nd Annual Dinner Details:</h2>
-    <ul>
+    <ul className="event-details-list">
       <li className="event-details-item">
         <i className="fa fa-calendar-alt" aria-hidden="true" />
         Date: Sunday October 7th
@@ -24,8 +24,8 @@ export const EventsPage = () => (
         Cost: $60 per person
       </li>
     </ul>
+    <h3 className="ticket-title">FOR TICKETS AND ADDITION INFORMATION: </h3>
     <p className="ticket-text">
-      For tickets and additional information: <br />
       Contact Boberg at dougboberg@comcast.net <br /> Or <br />
       Contact Campbell at vincent@primesalesmarketing.com
     </p>
