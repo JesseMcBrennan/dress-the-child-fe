@@ -8,6 +8,14 @@
 
 .navLogo {
   background: no-repeat center/7rem
+    url('../../images/DressTheChild_noPants-04.svg');
+  height: 7rem;
+  width: 9rem;
+  transition: 0.5s;
+}
+
+.navLogo:hover {
+  background: no-repeat center/7rem
     url('../../images/DressTheChild_noPants-01.svg');
   height: 7rem;
   width: 9rem;
@@ -29,37 +37,18 @@ img {
 .NavMain-a {
   text-decoration: none;
   color: whitesmoke;
+  transition: 0.8s;
 }
 
-// .NavMain-a:hover {
-//   border-left: 2px black solid;
-//   padding-left: 28px;
-// }
+.NavMain-a:hover {
+  color: #b33e6a;
+}
 
 .Nav-item {
-  width: 7.5rem;
+  list-style-type: none;
+  width: 8rem;
   text-align: center;
   margin: auto 0.001rem;
-}
-
-.donate:hover {
-  border-left: 2px rgb(237, 27, 35) solid;
-  padding-left: 35px;
-}
-
-.about:hover {
-  border-left: 2px rgb(0, 174, 239) solid;
-  padding-left: 35px;
-}
-
-.mission:hover {
-  border-left: 2px rgb(126, 62, 151) solid;
-  padding-left: 35px;
-}
-
-.partners:hover {
-  border-left: 2px rgb(228, 0, 136) solid;
-  padding-left: 35px;
 }
 
 @media only screen and (max-width: 680px) {

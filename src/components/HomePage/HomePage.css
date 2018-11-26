@@ -22,7 +22,7 @@
   border-radius: 0.15rem;
   cursor: pointer;
   background: whitesmoke;
-  transition: 0.3s; }
+  transition: 0.5s; }
 
 .donate-btn:hover {
   color: whitesmoke;
