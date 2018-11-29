@@ -1,24 +1,28 @@
 .donate-form {
   width: 20rem;
-  margin: .5rem auto; }
+  margin: 0.5rem auto;
+}
 
 .cc-input {
   width: 293px;
   margin: 0.5rem 0;
   font-size: 0.6rem;
-  background-color: white;
+  background-color: whitesmoke;
   padding: 10px 12px;
   border-radius: 4px;
   border: 1px solid transparent;
   box-shadow: 0 1px 3px 0 #e6ebf1;
   -webkit-transition: box-shadow 150ms ease;
-  transition: box-shadow 150ms ease; }
+  transition: box-shadow 150ms ease;
+}
 
 .cc-input:disabled {
-  background-color: lightgray; }
+  background-color: lightgray;
+}
 
 .first-name-cc {
-  margin: 0 0 0.5rem 0; }
+  margin: 0 0 0.5rem 0;
+}
 
 .StripeElement {
   margin: 0.5rem 0;
@@ -29,16 +33,20 @@
   border: 1px solid transparent;
   box-shadow: 0 1px 3px 0 #e6ebf1;
   -webkit-transition: box-shadow 150ms ease;
-  transition: box-shadow 150ms ease; }
+  transition: box-shadow 150ms ease;
+}
 
 .StripeElement--focus {
-  box-shadow: 0 1px 3px 0 #cfd7df; }
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
 
 .StripeElement--invalid {
-  border-color: #fa755a; }
+  border-color: #fa755a;
+}
 
 .StripeElement--webkit-autofill {
-  background-color: #fefde5 !important; }
+  background-color: #fefde5 !important;
+}
 
 .submit-btn {
   color: #047177;
@@ -49,66 +57,80 @@
   border-radius: 0.15rem;
   cursor: pointer;
   background: whitesmoke;
-  margin-top: -20px; }
+  margin-top: -20px;
+}
 
 .submit-btn:hover {
   color: whitesmoke;
   border: 0.1rem solid whitesmoke;
-  background: #047177; }
+  background: #047177;
+}
 
 .submit-btn:active {
   color: #047177;
   border: 0.1rem solid #047177;
-  background: whitesmoke; }
+  background: whitesmoke;
+}
 
 .email-msg {
   font-size: 0.9rem;
   color: black;
-  margin: 0; }
+  margin: 0;
+}
 
 .processing-msg {
   font-size: 0.9rem;
   width: auto;
   margin: 0.1rem 0;
-  color: black; }
+  color: black;
+}
 
 .donation-msg {
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
 .transaction-msg {
   font-size: 0.9rem;
   width: auto;
-  margin: 0.1rem 0; }
+  margin: 0.1rem 0;
+}
 
 .final-donation-msg {
   font-size: 1rem;
   width: auto;
-  margin: 0.1rem 0; }
+  margin: 0.1rem 0;
+}
 
 .final-total {
   font-size: 1.5rem;
   font-weight: 300;
-  margin: 0 0 1.3rem 0; }
+  margin: 0 0 1.3rem 0;
+}
 
 .first-name {
-  text-transform: capitalize; }
+  text-transform: capitalize;
+}
 
 .loading-gif {
   margin-top: 2rem;
-  background: no-repeat center/200px url("../../images/loading-gif.gif");
+  background: no-repeat center/200px url('../../images/loading-gif.gif');
   width: 400px;
   height: 400px;
-  margin: auto; }
+  margin: auto;
+}
 
 .thanks-msg {
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 .error-msg {
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 .anonymous-text {
   margin: 0 0 0.1rem 0;
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+}
 
 .anonymous-section {
   display: flex;
@@ -117,15 +139,21 @@
   justify-content: center;
   align-items: center;
   height: auto;
-  width: auto; }
+  width: auto;
+}
 
 @media only screen and (max-width: 590px) {
   .cc-input {
-    width: 70%; }
+    width: 70%;
+  }
   .StripeElement {
     width: 70%;
-    margin: auto; } }
+    margin: auto;
+  }
+}
 
 @media only screen and (max-width: 590px) {
   .donate-form {
-    width: 100%; } }
+    width: 100%;
+  }
+}
