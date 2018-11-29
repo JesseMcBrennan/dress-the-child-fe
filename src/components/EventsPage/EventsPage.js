@@ -25,10 +25,15 @@ export const EventsPage = () => (
       </li>
     </ul>
     <h3 className="ticket-title">FOR TICKETS AND ADDITION INFORMATION: </h3>
-    <p className="ticket-text">
-      Contact Boberg at dougboberg@comcast.net <br /> Or <br />
-      Contact Campbell at vincent@primesalesmarketing.com
-    </p>
+    <a
+      href="mailto:cody.taft@gmail.com, anondylyn@gmail.com?Subject=Dress%20The%20Child%20Event%20Info"
+      target="_top"
+      className="ticket-text"
+    >
+      <button className="fa fa-envelope">
+        <span className="email-text"> Email Us</span>
+      </button>
+    </a>
   </div>
 );
 
