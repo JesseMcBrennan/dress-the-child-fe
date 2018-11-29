@@ -39,7 +39,7 @@ export class DonateForm extends Component {
 
   addTotal = () => {
     const amount = parseInt(this.state.amount);
-    const amountTotal = (amount * 0.0233 + 0.3 + amount).toFixed(2);
+    const amountTotal = (amount * 0.0233 + (0.3 + amount)).toFixed(2);
     const fees = (amountTotal - amount).toFixed(2);
     this.setState({ amountTotal, fees });
   };
