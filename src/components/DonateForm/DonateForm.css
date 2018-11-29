@@ -58,6 +58,7 @@
   cursor: pointer;
   background: whitesmoke;
   margin-top: -20px;
+  transition: 0.5s;
 }
 
 .submit-btn:hover {
