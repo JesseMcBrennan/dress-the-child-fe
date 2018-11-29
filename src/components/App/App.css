@@ -5,8 +5,9 @@
   display: flex;
   flex-direction: column;
   font-family: 'Source Sans Pro', sans-serif;
-  background: no-repeat center center fixed url("../../images/dtc9.jpg");
-  background-size: cover; }
+  background: no-repeat center center fixed url('../../images/dtc9.jpg');
+  background-size: cover;
+}
 
 .horizontal-rule {
   display: block;
@@ -15,8 +16,14 @@
   height: 0.3rem;
   background: whitesmoke;
   width: 80%;
-  margin: auto; }
+  margin: auto;
+}
 
 .nav-main {
   display: flex;
-  margin: 0; }
+  margin: 0;
+}
+
+.main-title {
+  font-size: 5rem;
+}
