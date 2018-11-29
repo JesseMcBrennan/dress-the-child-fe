@@ -12,23 +12,28 @@ export const VolunteerPage = () => (
         one volunteer to take him or her through the store, and assist in making
         good decisions.  Our shopping dates for 2018 are listed below:
       </p>
-      <ul className="shopping-event-list">
-        <li className="shopping-event-list-item">
-          Sunday, November 4th at 6pm (sign-in at 5:30pm) Old Navy
-        </li>
-        <li className="shopping-event-list-item">
-          Sunday, November 18th at 6pm (sign-in at 5:30pm) Old Navy
-        </li>
-        <li className="shopping-event-list-item">
-          Sunday, December 2nd at 5:00pm (sign-in at 4:30pm) Kohl's
-        </li>
-        <li className="shopping-event-list-item">
-          Sunday, December 9th at 6pm (sign-in at 5:30) Old Navy
-        </li>
-      </ul>
-      <p className="contact-msg">
-        Please email mholt520@gmail.com for more information
-      </p>
+      <section className="shopping-event-list">
+        <p className="shopping-event-list-item">
+          Sunday, November 4th at 6pm <br /> (sign-in at 5:30pm) Old Navy
+        </p>
+        <p className="shopping-event-list-item">
+          Sunday, November 18th at 6pm <br /> (sign-in at 5:30pm) Old Navy
+        </p>
+        <p className="shopping-event-list-item">
+          Sunday, December 2nd at 5pm <br /> (sign-in at 4:30pm) Kohl's
+        </p>
+        <p className="shopping-event-list-item">
+          Sunday, December 9th at 6pm <br /> (sign-in at 5:30) Old Navy
+        </p>
+      </section>
+      <p className="contact-msg">For more information:</p>
+      <a
+        href="mailto:cody.taft@gmail.com, anondylyn@gmail.com?Subject=Dress%20The%20Child%20Event%20Info"
+        target="_top"
+        className="ticket-text"
+      >
+        <button className="fa fa-envelope"> Email Us</button>
+      </a>
     </div>
   </div>
 );
