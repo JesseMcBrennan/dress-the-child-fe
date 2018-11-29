@@ -32,7 +32,10 @@ export const VolunteerPage = () => (
         target="_top"
         className="ticket-text"
       >
-        <button className="fa fa-envelope"> Email Us</button>
+        <button className="fa fa-envelope">
+          {' '}
+          <span className="email-text">Email Us</span>
+        </button>
       </a>
     </div>
   </div>
