@@ -1,24 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, withRouter } from 'react-router-dom';
-import HomePage from '../../components/HomePage/HomePage';
 import MainContainer from '../../components/MainContainer/MainContainer';
 import './App.css';
 import NavMain from '../../components/NavMain/NavMain';
 
-export class App extends Component {
-  render() {
-    return (
-      <Router>
-        <div className="app">
-          <NavMain />
-          <main className="app-container">
-
-            <MainContainer />
-          </main>
-        </div>
-      </Router>
-    );
-  }
+export const App = () => {
+  return (
+    <Router>
+      <div className="app">
+        <NavMain />
+        <main className="app-container">
+          <MainContainer />
+        </main>
+      </div>
+    </Router>
+  );
 }
 
 export default withRouter(App);
