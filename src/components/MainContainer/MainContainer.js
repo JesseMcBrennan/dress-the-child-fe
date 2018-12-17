@@ -7,24 +7,20 @@ import MissionPage from '../MissionPage/MissionPage';
 import EventsPage from '../EventsPage/EventsPage';
 import './MainContainer.css';
 
-export class MainContainer extends Component {
-  render() {
-    const { location } = this.props;
-
-    return (
-      <section className="main-container">
-        <section
-          className={location.pathname === '/' ? 'none' : 'display-card'}
-        >
-          {location.pathname === `/` && <HomePage />}
-          {location.pathname === `/donate` && <DonatePage />}
-          {location.pathname === `/mission` && <MissionPage />}
-          {location.pathname === `/events` && <EventsPage />}
-          {location.pathname === `/volunteer` && <VolunteerPage />}
-        </section>
+export const MainContainer = ({ location }) => {
+  return (
+    <section className="main-container">
+      <section
+        className={location.pathname === '/' ? 'none' : 'display-card'}
+      >
+        {location.pathname === `/` && <HomePage />}
+        {location.pathname === `/donate` && <DonatePage />}
+        {location.pathname === `/mission` && <MissionPage />}
+        {location.pathname === `/events` && <EventsPage />}
+        {location.pathname === `/volunteer` && <VolunteerPage />}
       </section>
-    );
-  }
+    </section>
+  );
 }
 
 export default withRouter(MainContainer);
