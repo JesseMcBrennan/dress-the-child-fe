@@ -3,27 +3,18 @@
   height: 10vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .navLogo {
-  background: no-repeat center/7rem
-    url('../../images/DressTheChild_noPants-04.svg');
+  background: no-repeat center/7rem url("../../images/DressTheChild_noPants-04.svg");
   height: 7rem;
   width: 9rem;
-  transition: 0.5s;
-}
+  transition: 0.5s; }
 
 .navLogo:hover {
-  background: no-repeat center/7rem
-    url('../../images/DressTheChild_noPants-01.svg');
+  background: no-repeat center/7rem url("../../images/DressTheChild_noPants-01.svg");
   height: 7rem;
-  width: 9rem;
-}
-
-img {
-  height: 5em;
-}
+  width: 9rem; }
 
 .NavMain-buttons {
   display: flex;
@@ -31,43 +22,23 @@ img {
   justify-content: flex-end;
   width: 35rem;
   padding: 0;
-  font-size: 1.2rem;
-}
+  font-size: 1.2rem; }
 
 .NavMain-a {
   text-decoration: none;
   color: whitesmoke;
-  transition: 0.8s;
-}
+  transition: 0.8s; }
 
 .NavMain-a:hover {
-  color: #b33e6a;
-}
+  color: #b33e6a; }
 
 .Nav-item {
   list-style-type: none;
   width: 8rem;
   text-align: center;
-  margin: auto 0.001rem;
-}
+  margin: auto 0.001rem; }
 
 @media only screen and (max-width: 680px) {
   .NavMain-buttons {
     width: 25rem;
-    font-size: 1rem;
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  .navMain {
-    display: block;
-  }
-  .navLogo {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .NavMain-buttons {
-    justify-content: space-around;
-    width: 100%;
-  }
-}
+    font-size: 1rem; } }
