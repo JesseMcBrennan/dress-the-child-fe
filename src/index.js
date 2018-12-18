@@ -9,7 +9,6 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <BrowserRouter>
     <div>
-      <App />
       <Routes />
     </div>
   </BrowserRouter>,
