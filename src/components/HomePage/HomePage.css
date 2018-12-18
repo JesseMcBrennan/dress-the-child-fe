@@ -1,0 +1,57 @@
+.main-logo {
+  font-family: 'dtc-font', sans-serif;
+  color: #047177;
+  font-size: 4rem;
+  content: url('../../images/DressTheChild_FinalLogo.svg');
+  height: 11rem;
+  margin: 3rem auto;
+}
+
+.home-title {
+  font-family: 'helvetica', sans-serif;
+  font-weight: 550;
+  font-size: 2.2rem;
+  color: whitesmoke;
+  margin: 20rem auto 3rem auto;
+  padding: 0 2rem;
+}
+
+.donate-btn {
+  color: #047177;
+  padding: 0.5rem 1.5rem;
+  border: 0.1rem solid #047177;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 0.15rem;
+  cursor: pointer;
+  background: whitesmoke;
+  transition: 0.5s;
+}
+
+.donate-btn:hover {
+  color: whitesmoke;
+  border: 0.1rem solid whitesmoke;
+  background: #047177;
+}
+
+.donate-btn:active {
+  color: #047177;
+  border: 0.1rem solid #047177;
+  background: whitesmoke;
+}
+
+@media only screen and (max-width: 610px) {
+  .home-title {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .home-title {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .home-title {
+    font-size: 1.6rem;
+  }
+}

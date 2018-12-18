@@ -1,6 +1,4 @@
-$teal: #047177;
-
-.home {
+.app {
   text-align: center;
   height: 100vh;
   width: 100vw;
@@ -11,34 +9,17 @@ $teal: #047177;
   background-size: cover;
 }
 
-.home-title {
-  font-family: 'helvetica', sans-serif;
-  font-weight: 550;
-  font-size: 2.2rem;
-  color: whitesmoke;
-  margin: 20rem auto 3rem auto;
-}
-
-.donate-btn {
-  color: $teal;
-  padding: 0.5rem 1.5rem;
-  border: 0.1rem solid $teal;
-  font-size: 2rem;
-  text-decoration: none;
-  border-radius: 0.15rem;
-  cursor: pointer;
+.horizontal-rule {
+  display: block;
+  border: none;
+  color: rgba(255, 255, 255, 0.3);
+  height: 0.3rem;
   background: whitesmoke;
-  transition: 0.5s;
+  width: 80%;
+  margin: auto;
 }
 
-.donate-btn:hover {
-  color: whitesmoke;
-  border: 0.1rem solid whitesmoke;
-  background: $teal;
-}
-
-.donate-btn:active {
-  color: $teal;
-  border: 0.1rem solid $teal;
-  background: whitesmoke;
+.nav-main {
+  display: flex;
+  margin: 0;
 }

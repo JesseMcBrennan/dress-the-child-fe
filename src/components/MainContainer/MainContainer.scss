@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'dtc-font';
+  src: url('../../assets/Complete in Him.ttf');
+}
+
+.main-title {
+  font-family: 'dtc-font', sans-serif;
+  color: #449dba;
+  font-size: 3rem;
+  height: auto;
+  margin: 0.5rem auto 0.5rem auto;
+}
+
+.main-body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.3rem;
+  padding: 0 3rem;
+  color: #111111;
+  overflow: scroll;
+  overflow-wrap: normal;
+  max-height: 35rem;
+}
+
+.display-card {
+  width: 62vw;
+  margin: 1rem auto auto auto;
+  border: solid 0.4rem whitesmoke;
+  border-radius: 0.15rem;
+  background-color: rgba($color: whitesmoke, $alpha: 0.666);
+}
+
+@media only screen and (max-width: 1270px) {
+  .main-body {
+    font-size: 1.6rem;
+  }
+}
+
+// .main-container {
+//   padding: 3% 0 2% 0;
+// }
