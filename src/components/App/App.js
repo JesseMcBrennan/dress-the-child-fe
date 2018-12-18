@@ -1,26 +1,28 @@
 import React from 'react';
-import { BrowserRouter as Router, withRouter } from 'react-router-dom';
-import HomePage from '../../components/HomePage/HomePage';
+import { NavLink } from 'react-router-dom';
+import './App.css';
 import MissionPage from '../../components/MissionPage/MissionPage';
+import NavMain from '../../components/NavMain/NavMain';
 import EventsPage from '../../components/EventsPage/EventsPage';
 import VolunteerPage from '../../components/VolunteerPage/VolunteerPage';
-import './App.css';
-import NavMain from '../../components/NavMain/NavMain';
 
 export const App = () => {
   return (
-    <Router>
-      <div className="app">
-        <NavMain />
-        <main className="app-container">
-        <HomePage />
-        <MissionPage />
-        <EventsPage />
-        <VolunteerPage />
-        </main>
-      </div>
-    </Router>
+    <div className="home">
+      <NavMain />
+      <h1 className="home-title">
+        PROVIDING CHILDREN IN NEED
+        <br />
+        THE OPPORTUNITY TO SHOP FOR NEW WINTER CLOTHING
+      </h1>
+      <NavLink exact to="/donate" className="donate-btn">
+        Donate
+      </NavLink>
+      <MissionPage />
+      <EventsPage />
+      <VolunteerPage />
+    </div>
   );
 }
 
-export default withRouter(App);
+export default App;
