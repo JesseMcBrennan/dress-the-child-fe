@@ -1,105 +1,62 @@
 .event-details-item {
   list-style-type: none;
   width: 100%;
-  margin: auto auto auto 25%;
+  margin: auto;
   padding-bottom: 0.5rem;
-  font-size: 1.5rem;
-  text-align: left;
-}
+  font-size: 1.5rem; }
 
 .ticket-title {
-  margin-top: 5rem;
-}
+  margin-top: 5rem; }
 
 p.ticket-text {
   text-align: center;
   width: auto;
   font-size: 1.5rem;
-  padding: 0 3rem;
-}
+  padding: 0 3rem; }
 
 .fa {
-  margin-right: 0.5rem;
-}
-
-button.fa {
-  margin: 0.5rem 0 0 0;
-  font-size: 1rem;
-  background: whitesmoke;
-  border: solid 0.1rem #047177;
-  border-radius: 4px;
-  height: 1.8rem;
-  color: #047177;
-}
-
-button.fa:hover {
-  background: #047177;
-  color: whitesmoke;
-  border-color: whitesmoke;
-  cursor: pointer;
-}
-
-.email-text {
-  font-family: 'Source Sans Pro', sans-serif;
-}
+  margin-right: 0.5rem; }
 
 .main-body-title {
-  font-size: 2.5rem;
-}
+  font-size: 2.5rem; }
 
 .display-card {
-  color: #2d313d;
-}
+  color: #2d313d; }
 
 .events-card {
-  padding: 0 2rem 1rem 2rem;
-}
+  padding-left: 2rem;
+  padding-right: 2rem; }
 
 @media only screen and (max-width: 1000px) {
   p.ticket-text {
-    font-size: 1.3rem;
-  }
+    font-size: 1.3rem; }
   .ticket-title {
-    margin-top: 4rem;
-  }
-}
+    margin-top: 8rem; } }
 
 @media only screen and (max-width: 800px) {
   .main-body-title {
-    font-size: 2rem;
-  }
+    font-size: 2rem; }
   .event-details-item {
-    font-size: 1.2rem;
-  }
+    font-size: 1.2rem; }
   ul.event-details-list {
     text-align: left;
     padding-left: 12%;
     padding-right: 12%;
-    font-size: 1.5rem;
-  }
+    font-size: 1.5rem; }
   p.ticket-text {
-    font-size: 1rem;
-  }
+    font-size: 1rem; }
   .ticket-title {
     font-size: 1rem;
-    margin-top: 2rem;
-  }
-}
+    margin-top: 14rem; } }
 
 @media only screen and (max-width: 680px) {
   .main-body-title {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .event-details-item {
-    font-size: 1.2rem;
-  }
-}
+    font-size: 1.2rem; } }
 
 @media only screen and (max-width: 600px) {
   .main-body-title {
-    font-size: 1.6rem;
-  }
+    font-size: 1.6rem; }
   .event-details-item {
-    font-size: 1.2rem;
-  }
-}
+    font-size: 1.2rem; } }

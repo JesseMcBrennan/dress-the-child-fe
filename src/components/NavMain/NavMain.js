@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavMain.css';
-import { withRouter, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const NavMain = () => {
   return (
@@ -34,4 +34,4 @@ export const NavMain = () => {
   );
 };
 
-export default withRouter(NavMain);
+export default NavMain;
